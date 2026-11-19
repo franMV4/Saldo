@@ -20,6 +20,7 @@ Una hoja de cálculo para autónomos en España que llevan sus cuentas solos:
 - [Cómo calcular el modelo 130 paso a paso](guias/modelo-130-paso-a-paso.md) (con ejemplo y las rebajas que se suelen olvidar)
 - [Cómo calcular el modelo 303 (IVA) paso a paso](guias/modelo-303-paso-a-paso.md) (con ejemplo y el IVA que no se puede deducir)
 - [Gastos deducibles para autónomos: qué puedes deducir y cuánto](guias/gastos-deducibles-autonomos.md) (luz de casa, comidas, coche, seguro de salud...)
+- [Cuota de autónomos en 2027: qué está confirmado y cómo elegir tramo](guias/cuota-autonomos-2027.md) (la tabla de 2027 aún no está aprobada; plazo para cambiar de tramo: 31 de diciembre)
 - [Calendario fiscal 2027 para autónomos](guias/calendario-fiscal-2027-autonomos.md) (ojo: el 4T de 2026 se presenta hasta el 1 de febrero)
 
 ## ¿Solo quieres que SALDO siga viva?
