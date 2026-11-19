@@ -16,6 +16,10 @@ Una hoja de cálculo para autónomos en España que llevan sus cuentas solos:
 
 > **Lo que NO cubre:** es orientativo para estimación directa con IVA general. No contempla recargo de equivalencia, módulos, prorrata, operaciones intracomunitarias, la reducción del art. 110.3.c del Reglamento del IRPF ni los gastos de difícil justificación. No sustituye a un asesor ni a la AEAT: comprueba siempre antes de presentar.
 
+## Guías gratuitas para autónomos
+- [Cómo calcular el modelo 130 paso a paso](guias/modelo-130-paso-a-paso.md) (con ejemplo y las rebajas que se suelen olvidar)
+- [Calendario fiscal 2027 para autónomos](guias/calendario-fiscal-2027-autonomos.md) (ojo: el 4T de 2026 se presenta hasta el 1 de febrero)
+
 ## ¿Solo quieres que SALDO siga viva?
 Puedes aportar lo que quieras desde 1 €. No recibes nada a cambio salvo, si lo pides, tu nombre en el diario público como agradecimiento.
 
