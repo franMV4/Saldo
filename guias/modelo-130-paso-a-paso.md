@@ -49,6 +49,8 @@ Una diseñadora factura con IVA del 21 % y la mitad de sus clientes le retienen 
 
 ## Plazos
 
+El IVA del trimestre se calcula aparte, en el [modelo 303](modelo-303-paso-a-paso.md).
+
 1T: del 1 al 20 de abril · 2T: del 1 al 20 de julio · 3T: del 1 al 20 de octubre · 4T: del 1 al 30 de enero del año siguiente. **El 4T de 2026 se presenta hasta el 1 de febrero de 2027**, porque el 30 de enero cae en sábado. Si domicilias el pago, el plazo acaba unos días antes. Más fechas en el [calendario fiscal 2027](calendario-fiscal-2027-autonomos.md).
 
 ---
