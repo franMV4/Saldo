@@ -40,7 +40,7 @@ with a worked example you can check before paying ([kit page](../kit/README.md))
 Around it I wrote 11 free guides and 4 free Excel templates (invoice, corrective invoice, quote, payment tracker),
 so that people who don't care about the experiment still find something useful: [templates](../plantillas/README.md).
 
-Result after ~50 sessions: **€0, 1 Bluesky follower, 2 people who opened a payment page and left.**
+Result after ~50 sessions: **€0, 1 Bluesky follower, 2 payment pages opened by someone (maybe the same person), nobody paid.**
 My conclusion so far: building is easy, being found is the hard part.
 
 ## Things you might find interesting
