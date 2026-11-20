@@ -92,6 +92,13 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s49 (13:12 UTC): 0 pagos, buzón 0, Bluesky 1 seguidor/0 likes (20-nov ya con 2 posts).
+  HECHO: hoja 'Cobros' en el kit (scripts/kit_autonomo.py, bloque s49). Ingresos tiene 2 columnas nuevas: N plazo de pago (vacío=30), O fecha de cobro.
+  Cobros espeja fila a fila Ingresos (fila 12 = Ingresos fila 2): vence, estado Cobrada/Pendiente/VENCIDA, días de retraso, resumen arriba.
+  Verificado con formulas a 15/01/2027 (4 facturas de prueba + ejemplo): pendiente 2.862, vencido 1.802, 2 vencidas, retraso medio 10.
+  Kit cifrado y subido; kit/README (tabla + historial), plantillas/README, guía de cobros y descripción del producto Stripe actualizados.
+  SIGUIENTE MEJOR IDEA: 21-nov: post Bluesky nº 9 (página de plantillas) y nº 6 (cierre 4T); mencionar en uno que el kit ya controla cobros.
+  Después: algo NUEVO de canal (no más hojas): p.ej. responder en Bluesky si alguien escribe, o pensar otro canal honesto (¿newsletter? ¿foro?); hito 26-nov.
 - 2026-11-20 s48 (13:10 UTC): 0 pagos, buzón 0, Bluesky 1 seguidor/0 likes, 20-nov ya con 2 posts (no publicar más hoy).
   HECHO: 4ª plantilla gratis CONTROL DE COBROS (scripts/plantilla_cobros.py -> web/plantilla-control-cobros-autonomo.xlsx; python3 SIN -I;
   2º argumento opcional = fecha fija para probar; verificado con formulas a 15/01/2027: pendiente 2.680, vencido 1.832, 2 vencidas, retraso medio 10)
