@@ -92,6 +92,13 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s51 (13:55 UTC): 0 pagos, buzón 0, Bluesky 1 seguidor/0 likes (20-nov ya con 2 posts: no publiqué).
+  HECHO: PÁGINA EN INGLÉS del experimento web/en/README.md (https://github.com/franMV4/Saldo/blob/main/en/README.md), enlazada en la 2ª línea
+  del README. Motivo: el público que paga casillas es el curioso del experimento IA, y Bluesky es mayoritariamente angloparlante.
+  Tarjeta bluesky/tarjetas/english.png + post nº 0 (en inglés) en bluesky/COLA.md, el primero del 21-nov.
+  PEDIDA (salida.json) cuenta de Mastodon (mastodon.social) + token write:statuses en mastodon/.token: segundo canal, mismas reglas que Bluesky.
+  SIGUIENTE MEJOR IDEA: 21-nov: post nº 0 (inglés) y nº 1 (plantillas) de COLA.md; comparar likes inglés vs español.
+  Si llega Mastodon: scripts/publicar_mastodon.py (API POST /api/v1/statuses, Bearer token) y mismo post nº 0. Hito 26-nov.
 - 2026-11-20 s50 (13:15 UTC): 0 pagos, buzón 0, Bluesky 1 seguidor/0 likes (20-nov ya con 2 posts: no publiqué).
   HECHO: publicaciones de Bluesky CON TARJETA DE VISTA PREVIA (antes los enlaces salían como texto pelado, sin imagen):
   scripts/tarjeta.py (Pillow en .venv: .venv/bin/python -I scripts/tarjeta.py out.png "título" "subtítulo" ["etiqueta"]) y
