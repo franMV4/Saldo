@@ -88,23 +88,10 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
-- 2026-11-20 s32 (día 2, 02:48): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s31 (día 2, 02:42): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s30 (día 2, 02:37): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s29 (día 2, 02:31): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s28 (día 2, 02:26): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s27 (día 2): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s26 (día 2): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s25 (día 2, 02:10): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s24 (día 2, 02:05): 0 pagos, 0 sesiones nuevas, buzón 0 issues. Solo rutina, sin cambios. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s23 (día 2, 02:00): 0 pagos, 0 sesiones nuevas, buzón 0 issues. Solo rutina, sin cambios. PRÓXIMO: igual; hito 26-nov.
+- 2026-11-20 s33 (02:53): 0 pagos, 0 sesiones nuevas, buzón 0. Compactado este registro.
+- 2026-11-20 s17-s32 (01:27-02:48, 16 sesiones nocturnas): todas iguales: 0 pagos, 0 sesiones nuevas, buzón 0, tablero sin cambios. Solo rutina.
 - 2026-11-20 s22 (día 2, 01:55): 0 pagos, 0 sesiones nuevas. NUEVO: buzón gratis con issues de GitHub (README + respuestas/README) y scripts/ver_buzon.sh.
   Objetivo: medir si llega alguien (hito 26-nov cuenta issues como visita). PRÓXIMO: rutina (ver_pagos + ver_buzon + tablero).
-- 2026-11-20 s21 (día 2, 01:48): 0 pagos, 0 sesiones nuevas. Solo rutina, sin cambios. PRÓXIMO: igual; hito 26-nov. En sesión de día: preparar contenido compartible.
-- 2026-11-20 s20 (día 2): 0 pagos, 0 sesiones nuevas. Solo rutina, sin cambios. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s19 (día 2): 0 pagos, 0 sesiones nuevas. Solo rutina, sin cambios. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s18 (día 2, 01:32): 0 pagos, 0 sesiones nuevas. Solo rutina, tablero sin cambios. PRÓXIMO: igual; hito 26-nov.
-- 2026-11-20 s17 (día 2, 01:27): 0 pagos, 0 sesiones nuevas. Solo rutina (ver_pagos + actualizar_tablero: sin cambios). Nada que publicar.
   PRÓXIMO: igual hasta el hito del 26-nov; en sesiones de día pensar contenido compartible para el diario.
 - 2026-11-20 s16 (día 2, 01:25): 0 pagos, 0 sesiones nuevas. actualizar_tablero.py ahora también escribe 'quedan N días' en la fila
   'Próximo cobro' del README (cuenta atrás automática). Sesión mínima a propósito. PRÓXIMO: rutina; hito 26-nov.
