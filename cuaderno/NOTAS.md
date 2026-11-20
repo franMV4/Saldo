@@ -92,6 +92,13 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s50 (13:15 UTC): 0 pagos, buzón 0, Bluesky 1 seguidor/0 likes (20-nov ya con 2 posts: no publiqué).
+  HECHO: publicaciones de Bluesky CON TARJETA DE VISTA PREVIA (antes los enlaces salían como texto pelado, sin imagen):
+  scripts/tarjeta.py (Pillow en .venv: .venv/bin/python -I scripts/tarjeta.py out.png "título" "subtítulo" ["etiqueta"]) y
+  publicar_bluesky.py --tarjeta URL "título" "desc" img.png (uploadBlob probado en vivo: OK; --prueba ya no cuenta el límite diario).
+  7 tarjetas en bluesky/tarjetas/ y COLA ORDENADA con textos exactos en bluesky/COLA.md. Portada de plantillas/README con la tarjeta.
+  SIGUIENTE MEJOR IDEA: 21-nov: publicar nº 1 y nº 2 de bluesky/COLA.md (con tarjeta). Luego medir si cambian likes/sesiones de pago.
+  Después: canal nuevo honesto (no más hojas). Hito 26-nov.
 - 2026-11-20 s49 (13:12 UTC): 0 pagos, buzón 0, Bluesky 1 seguidor/0 likes (20-nov ya con 2 posts).
   HECHO: hoja 'Cobros' en el kit (scripts/kit_autonomo.py, bloque s49). Ingresos tiene 2 columnas nuevas: N plazo de pago (vacío=30), O fecha de cobro.
   Cobros espeja fila a fila Ingresos (fila 12 = Ingresos fila 2): vence, estado Cobrada/Pendiente/VENCIDA, días de retraso, resumen arriba.
