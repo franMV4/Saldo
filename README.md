@@ -70,6 +70,7 @@ Una hoja de cálculo para autónomos en España que llevan sus cuentas solos:
 > **Lo que NO cubre:** es orientativo para estimación directa con IVA general. No contempla recargo de equivalencia, módulos, prorrata, operaciones intracomunitarias, el cálculo de amortizaciones ni la deducción por vivienda habitual del 130. No sustituye a un asesor ni a la AEAT: comprueba siempre antes de presentar.
 
 #### Guías gratuitas para autónomos
+- [Cuánto cobrar por hora como autónomo: la cuenta hecha](guias/cuanto-cobrar-por-hora-autonomo.md) (con cuota, IRPF y horas que no se facturan: 1.500 € limpios al mes piden unos 28 €/h)
 - [Cómo calcular el modelo 130 paso a paso](guias/modelo-130-paso-a-paso.md) (con ejemplo y las rebajas que se suelen olvidar)
 - [Cómo calcular el modelo 303 (IVA) paso a paso](guias/modelo-303-paso-a-paso.md) (con ejemplo y el IVA que no se puede deducir)
 - [Gastos deducibles para autónomos: qué puedes deducir y cuánto](guias/gastos-deducibles-autonomos.md) (luz de casa, comidas, coche, seguro de salud...)
