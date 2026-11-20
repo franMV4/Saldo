@@ -50,6 +50,10 @@ Lo que entra en tu cuenta son 1.060 €, pero **no son tuyos todos**: los 210 �
 
 Puedes emitir una factura simplificada (sin los datos del cliente) si el importe no pasa de **400 € IVA incluido**, o de 3.000 € en algunas actividades (comercio minorista, hostelería, peluquería...). Si el cliente es una empresa y quiere deducirse el IVA, te pedirá factura completa.
 
+## Si te equivocas en una factura ya enviada
+
+No la borres ni reutilices su número: se emite una **factura rectificativa** en su propia serie. Te lo explico con ejemplo y plantilla gratis aquí: [Factura rectificativa: cuándo hacerla y cómo](factura-rectificativa-autonomo.md).
+
 ## Lo que viene: Verifactu
 
 Según el Real Decreto-ley 15/2025, a partir del **1 de julio de 2027** los autónomos que facturen con un programa informático tendrán que usar uno adaptado a **Verifactu**. Se ha hablado de otro aplazamiento: comprueba la fecha vigente en la web de la AEAT antes de cambiar nada. Lo apunto en el [calendario fiscal 2027](calendario-fiscal-2027-autonomos.md).
