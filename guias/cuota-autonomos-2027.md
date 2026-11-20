@@ -2,6 +2,8 @@
 
 *Guía gratuita de SALDO. Escrita el 19 de noviembre de 2026. La revisaré cuando se publique la norma de 2027.*
 
+> **Corrección (20 de noviembre de 2026):** la primera versión daba el tipo de 2026 como 31,4 % y el de 2027 como 31,5 %. Me equivoqué de año: 31,4 % era el de 2025. El de 2026 es 31,5 % (MEI 0,9 %) y en 2027 sería 31,6 % (MEI 1 %). La tabla ya está corregida; la diferencia es de 0,65 € a 1,93 € al mes por tramo.
+
 ## Lo primero: a día de hoy no hay tabla de 2027 aprobada
 
 A 19 de noviembre de 2026 **no hay ninguna norma publicada con los tramos de cotización de 2027**. Las tablas de "cuotas 2027" que circulan (por ejemplo, las que empiezan en unos 234 € en el primer tramo) vienen de una **propuesta** del Ministerio de hace más de un año que no salió adelante. No son las cuotas que vas a pagar, salvo que se aprueben.
@@ -14,25 +16,25 @@ Si no se aprueba nada nuevo, lo previsible es que se mantenga la tabla vigente (
 
 ## La tabla vigente (2025-2026) y lo que costaría en 2027 si no cambia
 
-La cuota es tu **base de cotización × el tipo**. El tipo ha sido el 31,4 % en 2026 (31,3 % + MEI 0,9 %) y sería el **31,5 %** en 2027 con el MEI al 1 %. La tabla indica la **base mínima** de cada tramo; puedes elegir una base más alta dentro del tramo, y entonces pagas más (y cotizas más para tu pensión y tus bajas).
+La cuota es tu **base de cotización × el tipo**. El tipo es el 31,5 % en 2026 (30,6 % + MEI 0,9 %) y sería el **31,6 %** en 2027 con el MEI al 1 %. La tabla indica la **base mínima** de cada tramo; puedes elegir una base más alta dentro del tramo, y entonces pagas más (y cotizas más para tu pensión y tus bajas).
 
-| Tramo | Rendimiento neto mensual | Base mínima | Cuota mínima 2026 (31,4 %) | Cuota mínima 2027 si la tabla no cambia (31,5 %) |
+| Tramo | Rendimiento neto mensual | Base mínima | Cuota mínima 2026 (31,5 %) | Cuota mínima 2027 si la tabla no cambia (31,6 %) |
 |---|---|---|---|---|
-| 1 | Hasta 670 € | 653,59 € | 205,23 € | 205,88 € |
-| 2 | 670,01 – 900 € | 718,95 € | 225,75 € | 226,47 € |
-| 3 | 900,01 – 1.166,70 € | 849,67 € | 266,80 € | 267,65 € |
-| 4 | 1.166,71 – 1.300 € | 950,98 € | 298,61 € | 299,56 € |
-| 5 | 1.300,01 – 1.500 € | 960,78 € | 301,68 € | 302,65 € |
-| 6 | 1.500,01 – 1.700 € | 960,78 € | 301,68 € | 302,65 € |
-| 7 | 1.700,01 – 1.850 € | 1.143,79 € | 359,15 € | 360,29 € |
-| 8 | 1.850,01 – 2.030 € | 1.209,15 € | 379,67 € | 380,88 € |
-| 9 | 2.030,01 – 2.330 € | 1.274,51 € | 400,20 € | 401,47 € |
-| 10 | 2.330,01 – 2.760 € | 1.356,21 € | 425,85 € | 427,21 € |
-| 11 | 2.760,01 – 3.190 € | 1.437,91 € | 451,50 € | 452,94 € |
-| 12 | 3.190,01 – 3.620 € | 1.519,61 € | 477,16 € | 478,68 € |
-| 13 | 3.620,01 – 4.050 € | 1.601,31 € | 502,81 € | 504,41 € |
-| 14 | 4.050,01 – 6.000 € | 1.732,03 € | 543,86 € | 545,59 € |
-| 15 | Más de 6.000 € | 1.928,10 € | 605,42 € | 607,35 € |
+| 1 | Hasta 670 € | 653,59 € | 205,88 € | 206,53 € |
+| 2 | 670,01 – 900 € | 718,95 € | 226,47 € | 227,19 € |
+| 3 | 900,01 – 1.166,70 € | 849,67 € | 267,65 € | 268,50 € |
+| 4 | 1.166,71 – 1.300 € | 950,98 € | 299,56 € | 300,51 € |
+| 5 | 1.300,01 – 1.500 € | 960,78 € | 302,65 € | 303,61 € |
+| 6 | 1.500,01 – 1.700 € | 960,78 € | 302,65 € | 303,61 € |
+| 7 | 1.700,01 – 1.850 € | 1.143,79 € | 360,29 € | 361,44 € |
+| 8 | 1.850,01 – 2.030 € | 1.209,15 € | 380,88 € | 382,09 € |
+| 9 | 2.030,01 – 2.330 € | 1.274,51 € | 401,47 € | 402,75 € |
+| 10 | 2.330,01 – 2.760 € | 1.356,21 € | 427,21 € | 428,56 € |
+| 11 | 2.760,01 – 3.190 € | 1.437,91 € | 452,94 € | 454,38 € |
+| 12 | 3.190,01 – 3.620 € | 1.519,61 € | 478,68 € | 480,20 € |
+| 13 | 3.620,01 – 4.050 € | 1.601,31 € | 504,41 € | 506,01 € |
+| 14 | 4.050,01 – 6.000 € | 1.732,03 € | 545,59 € | 547,32 € |
+| 15 | Más de 6.000 € | 1.928,10 € | 607,35 € | 609,28 € |
 
 Los tramos 1 a 3 son la "tabla reducida"; del 4 en adelante, la "tabla general". Las cifras de la última columna son **mi cálculo**, no una tabla oficial: solo serán ciertas si la tabla se prorroga tal cual.
 
@@ -49,9 +51,9 @@ El tramo no va por lo que facturas, sino por tu **rendimiento neto computable** 
 - Rendimiento neto: 30.000 − 8.000 = **22.000 €**
 - Menos el 7 %: 22.000 × 0,93 = **20.460 €**
 - Al mes: 20.460 / 12 = **1.705 €** → **tramo 7** (1.700,01 – 1.850 €)
-- Cuota mínima: 1.143,79 × 31,5 % ≈ **360 € al mes** (si la tabla no cambia)
+- Cuota mínima: 1.143,79 × 31,6 % ≈ **361 € al mes** (si la tabla no cambia)
 
-Ojo con estar cerca del límite: con 1.695 € al mes, Lucía estaría en el tramo 6 y pagaría unos 303 €. Una diferencia de 10 € de rendimiento mensual cambia la cuota en casi 60 €.
+Ojo con estar cerca del límite: con 1.695 € al mes, Lucía estaría en el tramo 6 y pagaría unos 304 €. Una diferencia de 10 € de rendimiento mensual cambia la cuota en casi 60 €.
 
 ## La regularización: elegir mal se paga (o se cobra) después
 
