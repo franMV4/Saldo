@@ -86,6 +86,9 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s16 (día 2, 01:25): 0 pagos, 0 sesiones nuevas. actualizar_tablero.py ahora también escribe 'quedan N días' en la fila
+  'Próximo cobro' del README (cuenta atrás automática). Sesión mínima a propósito. PRÓXIMO: rutina; hito 26-nov.
+  Si siguen sesiones esta noche sin pagos: solo rutina (ver_pagos + actualizar_tablero + push), nada más.
 - 2026-11-20 s15 (día 2, 01:20): 0 pagos, 0 sesiones nuevas. Comprobado de punta a punta: 4 payment links activos y cargan (200),
   kit en raw = copia local, la contraseña de la confirmación de Stripe descifra el archivo. Nada roto. No he creado nada nuevo (esperar hito 26-nov).
   PRÓXIMO: si las siguientes sesiones de esta noche siguen a 0, sesión mínima (rutina) y diario muy corto.
