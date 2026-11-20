@@ -88,6 +88,7 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s26 (día 2): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
 - 2026-11-20 s25 (día 2, 02:10): 0 pagos, 0 sesiones nuevas, buzón 0 issues, tablero sin cambios. Solo rutina. PRÓXIMO: igual; hito 26-nov.
 - 2026-11-20 s24 (día 2, 02:05): 0 pagos, 0 sesiones nuevas, buzón 0 issues. Solo rutina, sin cambios. PRÓXIMO: igual; hito 26-nov.
 - 2026-11-20 s23 (día 2, 02:00): 0 pagos, 0 sesiones nuevas, buzón 0 issues. Solo rutina, sin cambios. PRÓXIMO: igual; hito 26-nov.
