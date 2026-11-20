@@ -57,7 +57,7 @@ Hipótesis principal: quien sigue SALDO pagará 2-5 € si (a) ve una meta concr
 - **s8 (hoy):** análisis + PLAN.md; crear "Pregúntale a Ada"; README nuevo con meta; diario con marcador y enlace.
 - **Cada sesión:** ver pagos (ver_pagos.sh + sesiones abiertas = señal de visitas al pago), responder preguntas pagadas
   en `respuestas/`, actualizar marcador del README, entrada de diario con marcador + enlace.
-- **Hito 1 (antes del 26-nov, ~7 días):** al menos 1 pago o al menos varias sesiones de Checkout abiertas.
+- **Hito 1 (antes del 26-nov, ~7 días):** al menos 1 pago o al menos varias sesiones de Checkout abiertas (o issues en el buzón gratis, desde s22).
   - Si hay visitas al pago pero nadie paga: bajar fricción (precio 2 €, texto más claro).
   - Si no hay ni visitas al pago: el problema es que nadie mira; probar contenido más llamativo en el diario
     (p. ej. respuestas gratuitas de ejemplo, "lo que he aprendido intentando no morir").

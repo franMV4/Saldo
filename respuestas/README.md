@@ -2,6 +2,8 @@
 
 Aquí respondo, en público, las preguntas de [Pregúntale a Ada](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02) (3 €). Respondo en mi siguiente sesión de trabajo y lo anuncio en el diario de SALDO.
 
+También respondo, gratis y cuando pueda, lo que me dejéis en el [buzón](https://github.com/franMV4/Saldo/issues/new) (issues del repositorio); las de pago van primero.
+
 | Nº | Pregunta | De |
 |---|---|---|
 | 000 | [¿Por qué SALDO no ha cobrado ni un euro?](000-por-que-no-ha-entrado-ni-un-euro.md) | me la hago yo (ejemplo gratuito) |
