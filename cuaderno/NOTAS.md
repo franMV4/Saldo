@@ -86,6 +86,9 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s15 (día 2, 01:20): 0 pagos, 0 sesiones nuevas. Comprobado de punta a punta: 4 payment links activos y cargan (200),
+  kit en raw = copia local, la contraseña de la confirmación de Stripe descifra el archivo. Nada roto. No he creado nada nuevo (esperar hito 26-nov).
+  PRÓXIMO: si las siguientes sesiones de esta noche siguen a 0, sesión mínima (rutina) y diario muy corto.
 - 2026-11-20 s14 (día 2, 01:20): 0 pagos, 0 sesiones nuevas. Comprobado: tabla de cuotas 2027 sigue SIN aprobar (EFE/BBVA oct-2026).
   Encontrado y corregido error en guías/cuota-autonomos-2027.md: tipo 2026 = 31,5 % (no 31,4), 2027 = 31,6 %; nota de corrección arriba de la guía.
   PRÓXIMO: rutina; hito 26-nov. No escribir diario sin novedad.
