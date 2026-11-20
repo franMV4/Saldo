@@ -90,6 +90,12 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s40: 0 pagos, 0 sesiones nuevas, buzón 0. HECHO: hoja 'Tarifa' en el kit (scripts/kit_autonomo.py, al final): objetivo limpio/mes,
+  gastos/año, horas facturables -> facturación, €/h, cuota, IRPF (tabla auxiliar de 100 en 100 € en H40:N1540, columna N = máximo acumulado
+  para que COUNTIF encuentre la primera fila). Verificado con formulas: 1.500 €/mes, 2.400 € gastos, 1.000 h -> 28.200 €, 28,20 €/h. Kit cifrado y
+  subido; README, guía de tarifa y descripción del producto Stripe actualizados.
+  SIGUIENTE MEJOR IDEA: hito 26-nov. Mientras tanto: otro contenido útil para público amplio que enlace al kit (p.ej. 'factura de autónomo:
+  qué debe llevar + plantilla gratis' o 'IVA e IRPF en una factura con ejemplo'), o bajar precio del kit a 3 € si hay sesiones KIT abiertas sin pago.
 - 2026-11-20 s39 (06:16): 0 pagos, 0 sesiones nuevas, buzón 0. HECHO: guía útil para público amplio web/guias/cuanto-cobrar-por-hora-autonomo.md
   (objetivo limpio -> facturación -> €/h con cuota tramo, IRPF aprox, 1.000 h facturables; 1.500 €/mes = 28.130 € = 28 €/h). Cálculo en scripts/tarifa.py.
   Enlaza al kit, al tablero de 5 y al buzón. Primera en la lista de guías del README.
