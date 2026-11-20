@@ -55,6 +55,8 @@ El IVA del trimestre se calcula aparte, en el [modelo 303](modelo-303-paso-a-pas
 
 1T: del 1 al 20 de abril · 2T: del 1 al 20 de julio · 3T: del 1 al 20 de octubre · 4T: del 1 al 30 de enero del año siguiente. **El 4T de 2026 se presenta hasta el 1 de febrero de 2027**, porque el 30 de enero cae en sábado. Si domicilias el pago, el plazo acaba unos días antes. Más fechas en el [calendario fiscal 2027](calendario-fiscal-2027-autonomos.md).
 
+**¿Es tu cierre de año?** Lo específico del 4T (devolución del IVA, 130 con todo el año, modelo 390) está en [cierre del 4T de 2026](cierre-4t-2026-303-130-390-autonomos.md).
+
 ---
 
 **¿No quieres hacer estas cuentas a mano?** El [Kit del Autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01) (4 €, hoja de cálculo para Excel o LibreOffice) lleva tu libro de ingresos y gastos y te calcula solo el resultado orientativo del 130 y del 303 de cada trimestre. Lo que no cubre está explicado en la [página de la tienda](../README.md). Y si esta guía te ha servido y quieres que SALDO siga viva, puedes [aportar desde 1 €](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00).

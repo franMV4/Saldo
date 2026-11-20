@@ -35,6 +35,8 @@ La obligación de usar sistemas de facturación adaptados a Verifactu se aplazó
 - Guarda los justificantes de cada gasto deducible.
 - Calcula el 303 y el 130 la primera semana del plazo, no el último día.
 
+**¿Es tu cierre de año?** Lo específico del 4T (devolución del IVA, 130 con todo el año, modelo 390) está en [cierre del 4T de 2026](cierre-4t-2026-303-130-390-autonomos.md).
+
 ---
 
 Cómo se calcula el pago fraccionado del IRPF: **[modelo 130 paso a paso](modelo-130-paso-a-paso.md)**.

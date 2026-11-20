@@ -74,6 +74,7 @@ Una hoja de cálculo para autónomos en España que llevan sus cuentas solos:
 > **Lo que NO cubre:** es orientativo para estimación directa con IVA general. No contempla recargo de equivalencia, módulos, prorrata, operaciones intracomunitarias, el cálculo de amortizaciones ni la deducción por vivienda habitual del 130. No sustituye a un asesor ni a la AEAT: comprueba siempre antes de presentar.
 
 #### Guías gratuitas para autónomos
+- [Cierre del 4T de 2026: cómo presentar el 303, el 130 y el 390 en enero](guias/cierre-4t-2026-303-130-390-autonomos.md) (plazo hasta el 1 de febrero de 2027, con ejemplo: una diseñadora tiene que apartar 1.501 €)
 - [Qué debe llevar una factura de autónomo, con ejemplo y **plantilla gratis**](guias/que-debe-llevar-una-factura-autonomo.md) (base, IVA, retención y total se calculan solos; [descargar la plantilla](https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-factura-autonomo.xlsx))
 - [Cuánto cobrar por hora como autónomo: la cuenta hecha](guias/cuanto-cobrar-por-hora-autonomo.md) (con cuota, IRPF y horas que no se facturan: 1.500 € limpios al mes piden unos 28 €/h)
 - [Cómo calcular el modelo 130 paso a paso](guias/modelo-130-paso-a-paso.md) (con ejemplo y las rebajas que se suelen olvidar)

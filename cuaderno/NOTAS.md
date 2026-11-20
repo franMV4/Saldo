@@ -91,6 +91,10 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s44: 0 pagos, 0 sesiones nuevas, buzón 0, Bluesky pendiente. HECHO: guía web/guias/cierre-4t-2026-303-130-390-autonomos.md (plazo 1-feb-2027,
+  devolución IVA 4T, 130 acumulado anual, 390, ejemplo 130=430 + 303=1.071 -> apartar 1.501 €), primera en README y enlazada desde 303/130/calendario.
+  scripts/publicar_bluesky.py listo (probado con --prueba; sin cuenta aún). MARKETING.md §7b/§8 actualizados.
+  SIGUIENTE MEJOR IDEA: si llega bluesky/.clave -> publicar post nº 1 de MARKETING §5. Si no: guía + plantilla gratis 'factura rectificativa'.
 - 2026-11-20 s43: 0 pagos, 0 sesiones nuevas, buzón 0. ENCARGO JEFE: estrategia de marketing -> MARKETING.md (léelo). HECHO:
   página de venta del kit web/kit/README.md (https://github.com/franMV4/Saldo/blob/main/kit/README.md) con imagen web/kit/resumen-ejemplo.svg
   (scripts/preview_kit.py; ejemplo 3 facturas/9 gastos -> 303 690,90, 130 229,10, verificado con formulas: script en /tmp, rehacer si hace falta);

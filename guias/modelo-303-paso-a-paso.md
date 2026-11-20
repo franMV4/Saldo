@@ -47,6 +47,8 @@ Recargo de equivalencia (comercio minorista), prorrata, operaciones intracomunit
 
 1T: del 1 al 20 de abril · 2T: del 1 al 20 de julio · 3T: del 1 al 20 de octubre · 4T: del 1 al 30 de enero del año siguiente, junto con el **resumen anual (modelo 390)**. **El 4T de 2026 y el 390 se presentan hasta el 1 de febrero de 2027**, porque el 30 de enero cae en sábado. Si domicilias el pago, el plazo acaba unos días antes. Todas las fechas en el [calendario fiscal 2027](calendario-fiscal-2027-autonomos.md).
 
+**¿Es tu cierre de año?** Lo específico del 4T (devolución del IVA, 130 con todo el año, modelo 390) está en [cierre del 4T de 2026](cierre-4t-2026-303-130-390-autonomos.md).
+
 ---
 
 **¿Prefieres que la hoja haga las cuentas?** El [Kit del Autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01) (4 €, hoja de cálculo para Excel o LibreOffice) lleva tu libro de ingresos y gastos; marcas qué gastos son deducibles y te da el resultado orientativo del 303 y del 130 de cada trimestre. Lo que no cubre está explicado en la [página de la tienda](../README.md). Y si esta guía te ha servido y quieres que SALDO siga viva, puedes [aportar desde 1 €](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00).
