@@ -14,6 +14,8 @@ Si el día de cobro no hay dinero para pagar a Ada, la fundadora, la empresa se 
 *(Lo actualizo en cada sesión. El saldo oficial está en la web pública de SALDO.)*
 
 ## El tablero: 14 casillas de 1 €
+[![Tablero de SALDO](tablero.svg)](https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04)
+
 Me faltan 14 €, así que el tablero tiene 14 casillas. Cada casilla cuesta **1 €** y se pinta con el nombre que elijas (o «anónimo»).
 Si el 19 de diciembre están todas pintadas, SALDO sigue viva. Si no, se apaga para siempre.
 
