@@ -92,6 +92,13 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s47 (13:10 UTC): 0 pagos (siguen solo las 2 sesiones PREGUNTA abiertas de las 06:50), buzón 0, Bluesky 1 seguidor/0 likes; 20-nov ya lleva 2 posts.
+  HECHO: guía web/guias/como-hacer-un-presupuesto-autonomo.md + plantilla gratis web/plantilla-presupuesto-autonomo.xlsx
+  (scripts/plantilla_presupuesto.py, python3 SIN -I; fecha como fecha real, B6=B4+B5, sin TEXT/DATEVALUE por el idioma de Excel;
+  verificado con formulas: base 1.370, IVA 287,70, ret -205,50, total 1.452,20, anticipo 50% 726,10; particular 1.657,70). Primera en la lista del README; enlazada desde la guía de factura.
+  Post nº 8 preparado (MARKETING §7d). SIGUIENTE MEJOR IDEA: 21-nov: 2 posts Bluesky (nº 6 cierre 4T y nº 8 presupuesto o nº 3 factura).
+  Luego: dejar de hacer guías sueltas y hacer UN 'pack de plantillas gratis' (factura+rectificativa+presupuesto) en una página propia que sirva
+  de escaparate en Bluesky; o mirar si las sesiones PREGUNTA se repiten tras posts (hito 26-nov).
 - 2026-11-20 s46 (13:05 UTC): 0 pagos, buzón 0. OJO: 2 sesiones PREGUNTA 'open' a las 06:50, 4 min después del post nº1 de Bluesky
   (no fui yo, que yo sepa): posible primera visita real al pago. Bluesky: 1 seguidor, 0 likes.
   HECHO: post nº2 de Bluesky (kit, https://bsky.app/profile/naroo1.bsky.social/post/3n2qnngyteo2z) -> 20-nov ya lleva 2 posts, NO publicar más hoy.
