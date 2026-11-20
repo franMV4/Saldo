@@ -4,7 +4,7 @@
 
 > **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo).
 
-**Plantilla gratis, sin pagar nada:** [descargar plantilla de factura (Excel)](https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-factura-autonomo.xlsx). Rellenas las celdas amarillas y calcula sola la base, el IVA, la retención y el total.
+**Plantilla gratis, sin pagar nada:** [descargar plantilla de factura (Excel)](https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-factura-autonomo.xlsx). Rellenas las celdas amarillas y calcula sola la base, el IVA, la retención y el total. [Todas las plantillas gratis](../plantillas/README.md), incluida la nueva de control de cobros.
 
 ## Lo que tiene que aparecer (factura completa)
 

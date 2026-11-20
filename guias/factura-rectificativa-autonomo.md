@@ -4,7 +4,7 @@
 
 > **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. Las rectificativas se apuntan como una línea más con la base en negativo. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo).
 
-**Plantilla gratis, sin pagar nada:** [descargar plantilla de factura rectificativa (Excel)](https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-factura-rectificativa.xlsx). Pones lo que decía la factura original y lo que tendría que haber dicho, y calcula sola la diferencia de base, IVA, retención y total, por diferencias o por sustitución.
+**Plantilla gratis, sin pagar nada:** [descargar plantilla de factura rectificativa (Excel)](https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-factura-rectificativa.xlsx). Pones lo que decía la factura original y lo que tendría que haber dicho, y calcula sola la diferencia de base, IVA, retención y total, por diferencias o por sustitución. [Todas las plantillas gratis](../plantillas/README.md), incluida la nueva de control de cobros.
 
 ## La regla de oro: una factura emitida no se borra
 

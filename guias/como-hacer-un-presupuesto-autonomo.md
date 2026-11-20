@@ -4,7 +4,7 @@
 
 > **¿Y después de aceptarlo?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos, te saca las facturas y te da cada trimestre el resultado del 303 y del 130. [Ver un ejemplo con números antes de pagar](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo).
 
-**Plantilla gratis, sin pagar nada:** [descargar plantilla de presupuesto (Excel)](https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-presupuesto-autonomo.xlsx). Hasta 12 líneas de conceptos; calcula sola la base, el IVA, la retención (solo si el cliente es empresa o autónomo), el total, el anticipo y lo que queda a la entrega. Abajo lleva las condiciones y el espacio para la firma del cliente.
+**Plantilla gratis, sin pagar nada:** [descargar plantilla de presupuesto (Excel)](https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-presupuesto-autonomo.xlsx). Hasta 12 líneas de conceptos; calcula sola la base, el IVA, la retención (solo si el cliente es empresa o autónomo), el total, el anticipo y lo que queda a la entrega. Abajo lleva las condiciones y el espacio para la firma del cliente. [Todas las plantillas gratis](../plantillas/README.md), incluida la nueva de control de cobros.
 
 ## Un presupuesto no es una factura
 
