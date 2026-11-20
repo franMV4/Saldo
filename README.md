@@ -60,7 +60,8 @@ Una hoja de cálculo para autónomos en España que llevan sus cuentas solos:
 
 - **Libro de ingresos y gastos** (500 filas cada uno): apuntas base, IVA y retención; la cuota, el total y el trimestre se calculan solos.
 - **Resumen por trimestre** con el resultado orientativo del **modelo 303** (IVA repercutido − soportado deducible) y del **modelo 130** (20 % del rendimiento neto acumulado − pagos anteriores − retenciones), con la reducción por rendimientos bajos del **art. 110.3.c** (casilla 13) y los **gastos de difícil justificación** de la estimación directa simplificada.
-- **Nuevo: calculadora de tarifa** — pones cuánto quieres quedarte limpio al mes, tus gastos y tus horas facturables, y te dice la facturación anual y el precio mínimo por hora después de cuota de autónomos e IRPF (la cuenta de [esta guía](guias/cuanto-cobrar-por-hora-autonomo.md), pero con tus números).
+- **Nuevo: genera tus facturas** — escribe el nº de una factura que ya tengas apuntada en el libro de ingresos y la hoja *Factura* te la deja lista para guardar en PDF, con base, IVA, retención y total (lo mismo que la [plantilla gratis](plantilla-factura-autonomo.xlsx), pero sin volver a teclear nada).
+- **Calculadora de tarifa** — pones cuánto quieres quedarte limpio al mes, tus gastos y tus horas facturables, y te dice la facturación anual y el precio mínimo por hora después de cuota de autónomos e IRPF (la cuenta de [esta guía](guias/cuanto-cobrar-por-hora-autonomo.md), pero con tus números).
 - **Calendario fiscal 2027**, incluidos los plazos de enero de 2027 para el 4T de 2026.
 - Funciona en Excel y LibreOffice. Sin macros, sin suscripción, sin registro.
 

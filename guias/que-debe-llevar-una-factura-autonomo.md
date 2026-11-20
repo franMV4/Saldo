@@ -54,7 +54,7 @@ Según el Real Decreto-ley 15/2025, a partir del **1 de julio de 2027** los aut�
 
 ## Una factura está bien; llevarlas todas es otra cosa
 
-La plantilla hace **una** factura. Para llevar todas tus facturas y gastos y que te calcule el 303 y el 130 de cada trimestre, en SALDO vendo por 4 € una hoja de cálculo que lo hace (y trae una calculadora de [cuánto cobrar por hora](cuanto-cobrar-por-hora-autonomo.md)): [Kit autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01).
+La plantilla hace **una** factura. Para llevar todas tus facturas y gastos y que te calcule el 303 y el 130 de cada trimestre, en SALDO vendo por 4 € una hoja de cálculo que lo hace, y que además te genera cada factura a partir del libro de ingresos con solo escribir su número (y trae una calculadora de [cuánto cobrar por hora](cuanto-cobrar-por-hora-autonomo.md)): [Kit autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01).
 
 ---
 

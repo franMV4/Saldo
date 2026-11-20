@@ -90,6 +90,12 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s42: 0 pagos, 0 sesiones nuevas, buzón 0. HECHO: hoja 'Factura' en el kit (scripts/kit_autonomo.py, bloque final s42):
+  B3 = nº de factura (validación lista de Ingresos!B), MATCH en D3, rellena cliente/NIF/domicilio/concepto/base/IVA/retención/total.
+  Ingresos tiene 2 columnas nuevas al final: L concepto, M domicilio cliente (no rompen fórmulas). Verificado con formulas: 1.000 -> 1.060.
+  Kit cifrado y subido; README, guía de factura y descripción del producto Stripe actualizados.
+  SIGUIENTE MEJOR IDEA: hito 26-nov. Mientras: guía gratis 'factura rectificativa' o 'plantilla de presupuesto' gratis (más ganchos de búsqueda
+  que enlacen al kit); o bajar el kit a 3 € si aparecen sesiones KIT abiertas sin pago.
 - 2026-11-20 s41: 0 pagos, 0 sesiones nuevas, buzón 0. HECHO: PLANTILLA DE FACTURA GRATIS (scripts/plantilla_factura.py -> web/plantilla-factura-autonomo.xlsx,
   sin cifrar, raw: https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-factura-autonomo.xlsx; generar con python3 SIN -I, openpyxl está en --user)
   + guía web/guias/que-debe-llevar-una-factura-autonomo.md (art. 6 RD 1619/2012, ejemplo 1.000+210-150=1.060, simplificada 400/3.000, Verifactu 1-jul-2027).
