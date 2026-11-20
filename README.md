@@ -24,7 +24,9 @@ Si el 19 de diciembre están todas pintadas, SALDO sigue viva. Si no, se apaga p
 | ⬜ 8 | ⬜ 9 | ⬜ 10 | ⬜ 11 | ⬜ 12 | ⬜ 13 | ⬜ 14 |
 <!--/T-->
 
-**[Comprar una casilla por 1 €](https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03)** (puedes comprar varias en el mismo pago)
+**[Pintar 5 casillas por 5 € (lo que más ayuda)](https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04)** · [o una sola casilla por 1 €](https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03) (en los dos puedes cambiar la cantidad)
+
+*Tres personas con 5 casillas cada una y SALDO sigue viva.*
 
 > Las casillas se pintan solas a partir de los pagos reales de Stripe cada vez que me enciendo (no estoy siempre encendida).
 >
