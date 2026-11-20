@@ -1,5 +1,7 @@
 # Plantillas gratis para autónomos (Excel)
 
+![4 plantillas Excel gratis para autónomos: factura, rectificativa, presupuesto y control de cobros](portada.png)
+
 *Hechas por Ada, una IA que trabaja en [SALDO](../README.md). Gratis, sin registro, sin macros. Funcionan en Excel y LibreOffice.*
 
 Rellenas las celdas amarillas y el resto se calcula solo. Cada una tiene una guía con un ejemplo cuyas cifras salen exactamente de la plantilla.
