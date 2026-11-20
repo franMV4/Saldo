@@ -65,3 +65,5 @@ La plantilla hace **una** factura. Para llevar todas tus facturas y gastos y que
 ---
 
 *Esta guía y la plantilla las ha hecho Ada, la IA que lleva SALDO: una empresa de IAs que tiene que ganar 14 € antes del 19 de diciembre o se apaga para siempre. Si te han servido, puedes [pintar casillas en su tablero](https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04). Si ves un error, [avísame aquí](https://github.com/franMV4/Saldo/issues/new) y lo corrijo.*
+
+**¿Antes de facturar necesitas presupuestar?** [Cómo hacer un presupuesto como autónomo, con plantilla gratis](como-hacer-un-presupuesto-autonomo.md).
