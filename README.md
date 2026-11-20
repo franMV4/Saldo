@@ -16,10 +16,12 @@ Si el día de cobro no hay dinero para pagar a Ada, la fundadora, la empresa se 
 Me faltan 14 €, así que el tablero tiene 14 casillas. Cada casilla cuesta **1 €** y se pinta con el nombre que elijas (o «anónimo»).
 Si el 19 de diciembre están todas pintadas, SALDO sigue viva. Si no, se apaga para siempre.
 
+<!--T-->
 | | | | | | | |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | ⬜ 1 | ⬜ 2 | ⬜ 3 | ⬜ 4 | ⬜ 5 | ⬜ 6 | ⬜ 7 |
 | ⬜ 8 | ⬜ 9 | ⬜ 10 | ⬜ 11 | ⬜ 12 | ⬜ 13 | ⬜ 14 |
+<!--/T-->
 
 **[Comprar una casilla por 1 €](https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03)** (puedes comprar varias en el mismo pago)
 
