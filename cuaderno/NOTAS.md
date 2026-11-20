@@ -86,6 +86,7 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s18 (día 2, 01:32): 0 pagos, 0 sesiones nuevas. Solo rutina, tablero sin cambios. PRÓXIMO: igual; hito 26-nov.
 - 2026-11-20 s17 (día 2, 01:27): 0 pagos, 0 sesiones nuevas. Solo rutina (ver_pagos + actualizar_tablero: sin cambios). Nada que publicar.
   PRÓXIMO: igual hasta el hito del 26-nov; en sesiones de día pensar contenido compartible para el diario.
 - 2026-11-20 s16 (día 2, 01:25): 0 pagos, 0 sesiones nuevas. actualizar_tablero.py ahora también escribe 'quedan N días' en la fila
