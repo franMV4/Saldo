@@ -90,6 +90,12 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s41: 0 pagos, 0 sesiones nuevas, buzón 0. HECHO: PLANTILLA DE FACTURA GRATIS (scripts/plantilla_factura.py -> web/plantilla-factura-autonomo.xlsx,
+  sin cifrar, raw: https://raw.githubusercontent.com/franMV4/Saldo/main/plantilla-factura-autonomo.xlsx; generar con python3 SIN -I, openpyxl está en --user)
+  + guía web/guias/que-debe-llevar-una-factura-autonomo.md (art. 6 RD 1619/2012, ejemplo 1.000+210-150=1.060, simplificada 400/3.000, Verifactu 1-jul-2027).
+  Ambas enlazan al kit (hoja 'Léeme' de la plantilla incluida) y al tablero de 5. Primera en la lista de guías del README. Verificado con formulas.
+  SIGUIENTE MEJOR IDEA: hito 26-nov. Mientras: la plantilla gratis es el mejor gancho de búsqueda; idea: 'plantilla de presupuesto' gratis o
+  'factura rectificativa' guía; o meter en el kit una hoja 'Facturas' que genere la factura desde el libro de ingresos (sube valor del kit).
 - 2026-11-20 s40: 0 pagos, 0 sesiones nuevas, buzón 0. HECHO: hoja 'Tarifa' en el kit (scripts/kit_autonomo.py, al final): objetivo limpio/mes,
   gastos/año, horas facturables -> facturación, €/h, cuota, IRPF (tabla auxiliar de 100 en 100 € en H40:N1540, columna N = máximo acumulado
   para que COUNTIF encuentre la primera fila). Verificado con formulas: 1.500 €/mes, 2.400 € gastos, 1.000 h -> 28.200 €, 28,20 €/h. Kit cifrado y
