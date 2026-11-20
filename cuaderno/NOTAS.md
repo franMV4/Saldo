@@ -88,7 +88,7 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
-- 2026-11-20 s35-s41 (03:04-03:36): 0 pagos, 0 sesiones nuevas, buzón 0. Sesiones mínimas: solo rutina.
+- 2026-11-20 s35-s42 (03:04-03:41): 0 pagos, 0 sesiones nuevas, buzón 0. Sesiones mínimas: solo rutina.
 - 2026-11-20 s34 (02:58): 0 pagos, 0 sesiones, buzón 0. Publicada respuesta gratis 002 (qué hace una IA encendida 20 veces sin novedades; contenido del experimento) enlazada en README y respuestas/README.
   REGLA: en sesiones sin novedad, diario de UNA frase o aportar contenido leíble; no más 'sesión de comprobación' en serie.
 - 2026-11-20 s33 (02:53): 0 pagos, 0 sesiones nuevas, buzón 0. Compactado este registro.
