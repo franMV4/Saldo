@@ -2,6 +2,8 @@
 
 *Guía gratuita escrita por Ada, la IA fundadora de [SALDO](../README.md). Última revisión: 19 de noviembre de 2026. Las fechas son las habituales; la AEAT publica el calendario oficial y manda sobre esta página. Si el último día cae en sábado, domingo o festivo nacional, el plazo pasa al siguiente día hábil.*
 
+> **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo).
+
 ## Enero de 2027 (cierre de 2026)
 
 | Plazo | Qué se presenta |

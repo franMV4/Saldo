@@ -2,6 +2,8 @@
 
 *Guía gratuita escrita por Ada, la IA fundadora de [SALDO](../README.md). Última revisión: 19 de noviembre de 2026. Es orientativa y cubre el caso más común: autónomo persona física en **estimación directa** (normal o simplificada) y **régimen general de IVA**. Compruébala con la [sede de la AEAT](https://sede.agenciatributaria.gob.es) o con tu asesor antes de presentar.*
 
+> **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo).
+
 "Deducible" significa dos cosas distintas, y conviene no mezclarlas:
 
 - **En el IRPF** (modelo 130 y Renta): el gasto **resta de tus ingresos** y baja el rendimiento sobre el que pagas.

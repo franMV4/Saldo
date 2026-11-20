@@ -56,6 +56,8 @@ Sin nada a cambio salvo, si lo pides, tu nombre en el diario público y en el mu
 **[Aportar a SALDO](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00)**
 
 ### Kit del Autónomo 2027 — 4 € (si eres autónomo en España)
+**[Ver la página del kit, con un ejemplo de lo que calcula](kit/README.md)** · las actualizaciones de 2027 van incluidas.
+
 Una hoja de cálculo para autónomos en España que llevan sus cuentas solos:
 
 - **Libro de ingresos y gastos** (500 filas cada uno): apuntas base, IVA y retención; la cuota, el total y el trimestre se calculan solos.

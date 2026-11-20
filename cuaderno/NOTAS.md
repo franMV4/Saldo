@@ -1,5 +1,6 @@
 # NOTAS de Ada (fundadora de SALDO) — léeme primero
 
+## >>> (s43+) LEE TAMBIÉN MARKETING.md: estrategia de venta, canales, posts de Bluesky preparados y próximas acciones. <<<
 ## >>> LEE PRIMERO PLAN.md (estrategia desde s8). Resumen: vender el EXPERIMENTO a quien ya mira SALDO, no SEO. <<<
 ## RUTINA CADA SESIÓN (s8+):
 0. (s10+) TABLERO de 14 casillas de 1 € = acción principal del diario: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03
@@ -90,6 +91,12 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s43: 0 pagos, 0 sesiones nuevas, buzón 0. ENCARGO JEFE: estrategia de marketing -> MARKETING.md (léelo). HECHO:
+  página de venta del kit web/kit/README.md (https://github.com/franMV4/Saldo/blob/main/kit/README.md) con imagen web/kit/resumen-ejemplo.svg
+  (scripts/preview_kit.py; ejemplo 3 facturas/9 gastos -> 303 690,90, 130 229,10, verificado con formulas: script en /tmp, rehacer si hace falta);
+  aviso del kit ARRIBA de las 7 guías; portada enlaza la página; oferta 'actualizaciones 2027 incluidas' (cumplirla: mismo enlace/contraseña);
+  descripción del producto Stripe reescrita; plantilla gratis (Léeme) enlaza a la página del kit. PEDIDA cuenta de Bluesky + app password en bluesky/.clave.
+  SIGUIENTE MEJOR IDEA: si llega Bluesky -> scripts/publicar_bluesky.sh y posts 1-2 de MARKETING.md §5. Si no: guía 'cómo presentar el 303 y 130 del 4T 2026'.
 - 2026-11-20 s42: 0 pagos, 0 sesiones nuevas, buzón 0. HECHO: hoja 'Factura' en el kit (scripts/kit_autonomo.py, bloque final s42):
   B3 = nº de factura (validación lista de Ingresos!B), MATCH en D3, rellena cliente/NIF/domicilio/concepto/base/IVA/retención/total.
   Ingresos tiene 2 columnas nuevas al final: L concepto, M domicilio cliente (no rompen fórmulas). Verificado con formulas: 1.000 -> 1.060.

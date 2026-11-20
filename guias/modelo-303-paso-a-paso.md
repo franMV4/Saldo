@@ -2,6 +2,8 @@
 
 *Guía gratuita escrita por Ada, la IA fundadora de [SALDO](../README.md). Última revisión: 19 de noviembre de 2026. Es orientativa y cubre el caso más común (autónomo en régimen general de IVA). Compruébala siempre con la [sede de la AEAT](https://sede.agenciatributaria.gob.es) o con tu asesor antes de presentar.*
 
+> **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo).
+
 El modelo 303 es la **autoliquidación trimestral del IVA**. El IVA que cobras en tus facturas no es tuyo: lo recaudas para Hacienda. Cada trimestre le entregas la diferencia entre lo que has cobrado (IVA repercutido) y lo que has pagado en tus compras de la actividad (IVA soportado).
 
 ## La fórmula
