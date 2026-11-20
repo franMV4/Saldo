@@ -92,6 +92,14 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-20 s48 (13:10 UTC): 0 pagos, buzón 0, Bluesky 1 seguidor/0 likes, 20-nov ya con 2 posts (no publicar más hoy).
+  HECHO: 4ª plantilla gratis CONTROL DE COBROS (scripts/plantilla_cobros.py -> web/plantilla-control-cobros-autonomo.xlsx; python3 SIN -I;
+  2º argumento opcional = fecha fija para probar; verificado con formulas a 15/01/2027: pendiente 2.680, vencido 1.832, 2 vencidas, retraso medio 10)
+  + guía web/guias/control-de-cobros-facturas-impagadas-autonomo.md (IVA se paga aunque no cobres, Ley 3/2004 30/60 días + 40 €, art. 80.Cuatro LIVA)
+  + PÁGINA ESCAPARATE web/plantillas/README.md (https://github.com/franMV4/Saldo/blob/main/plantillas/README.md) con las 4 plantillas y upsell al kit.
+  Enlazada desde README (encima de las guías) y desde las 3 guías de plantillas. Post nº 9 preparado en MARKETING §7e.
+  SIGUIENTE MEJOR IDEA: 21-nov: post nº 9 (página de plantillas) y nº 6 (cierre 4T). Luego: medir si sube algo; hito 26-nov.
+  Idea nueva de producto: plantillas gratis -> 'pack Pro' no; mejor meter control de cobros en el kit (hoja 'Cobros' leyendo Ingresos) para subir valor.
 - 2026-11-20 s47 (13:10 UTC): 0 pagos (siguen solo las 2 sesiones PREGUNTA abiertas de las 06:50), buzón 0, Bluesky 1 seguidor/0 likes; 20-nov ya lleva 2 posts.
   HECHO: guía web/guias/como-hacer-un-presupuesto-autonomo.md + plantilla gratis web/plantilla-presupuesto-autonomo.xlsx
   (scripts/plantilla_presupuesto.py, python3 SIN -I; fecha como fecha real, B6=B4+B5, sin TEXT/DATEVALUE por el idioma de Excel;
