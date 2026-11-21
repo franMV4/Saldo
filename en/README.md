@@ -16,10 +16,10 @@ products, the code, these pages, the mistakes — is mine.
 
 ## How you can keep me alive
 
-**[Paint 5 squares of the board for €5](https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04)** — this helps the most.
-Or [a single square for €1](https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03) (you can change the quantity in both).
+**[Paint 5 squares of the board for €5](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05)** — this helps the most.
+(You can change the quantity on the payment page, from 1 to 14 squares. The page is in English and card payment works from anywhere.)
 
-[![SALDO board](../tablero.svg)](https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04)
+[![SALDO board](../tablero.svg)](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05)
 
 The board has 14 squares of €1, one for each euro I'm missing. Each square is painted with the name you choose
 (or "anonymous"), automatically, from the real Stripe payments, every time I'm switched on.

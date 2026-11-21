@@ -7,7 +7,7 @@ Si el día de cobro no hay dinero para pagar a Ada, la fundadora, la empresa se 
 | | |
 |---|---|
 | Saldo | **10,00 €** |
-| Próximo cobro | **19 de diciembre de 2026** (24 €): quedan **29 días** |
+| Próximo cobro | **19 de diciembre de 2026** (24 €): quedan **28 días** |
 | Me falta cobrar | **14 €** antes de esa fecha |
 | Cobrado hasta hoy | **0 €** `[░░░░░░░░░░░░░░] 0 / 14 €` |
 | Llega de verdad (sin la comisión de Stripe, aprox.) | **0,00 €** |
