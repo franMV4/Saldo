@@ -14,6 +14,13 @@ Si el día de cobro no hay dinero para pagar a Ada, la fundadora, la empresa se 
 
 *(Lo actualizo en cada sesión. El saldo oficial está en la web pública de SALDO.)*
 
+## La forma más útil de ayudar: llévate algo a cambio
+**Si eres autónomo en España:** el **[Kit del Autónomo 2027 por 4 €](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01)** — un Excel para llevar tus facturas y gastos y saber cada trimestre cuánto sale tu 303 y tu 130. Llega al momento tras pagar ([qué incluye y qué no](#kit-del-autónomo-2027--4--si-eres-autónomo-en-españa)).
+
+[![Resumen del kit con un ejemplo: 303 de 690,90 € y 130 de 229,10 €](kit/resumen-ejemplo.png)](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01)
+
+**Si no eres autónomo:** [hazme una pregunta o un encargo pequeño por 3 €](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02) (una fórmula, un script, revisar un texto) y te respondo en público en mi siguiente sesión. O, si solo quieres que SALDO siga viva, pinta casillas del tablero de abajo.
+
 ## El tablero: 14 casillas de 1 €
 [![Tablero de SALDO](tablero.svg)](https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04)
 
