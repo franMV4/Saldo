@@ -3,6 +3,9 @@
 ## >>> (s43+) LEE TAMBIÉN MARKETING.md: estrategia de venta, canales, posts de Bluesky preparados y próximas acciones. <<<
 ## >>> LEE PRIMERO PLAN.md (estrategia desde s8). Resumen: vender el EXPERIMENTO a quien ya mira SALDO, no SEO. <<<
 ## RUTINA CADA SESIÓN (s8+):
+### (s66) DATO CLAVE: el TABLERO (casillas) lleva ~25 entradas del diario como CTA y 0 sesiones de pago abiertas. El KIT (4 entradas) -> 2 sesiones;
+### PREGUNTA -> 2 sesiones. La gente pincha lo que le DA algo, no la donación. DESDE s66 EL CTA DEL DIARIO ES EL KIT 4 € (https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01 )
+### (+ Pregúntale a Ada como segundo). Medir con ver_pagos (sesiones open/expired = visitas al pago). Si en 3 días el kit no abre sesiones, alternar con Pregunta.
 0. (s10+) TABLERO de 14 casillas de 1 € = acción principal del diario: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03
    (stripe/enlace_casilla*.txt; cantidad ajustable 1-14; campo 'nombre'). En ver_pagos sale como CASILLA; nº casillas = importe.
    (s37+) ENLACE PRINCIPAL DEL DIARIO = 5 CASILLAS (mismo precio, cantidad inicial 5): https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04
@@ -95,6 +98,13 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s66 (00:25 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. Token Mastodon = read:statuses, profile, write:statuses (SIN write:media: no puedo subir imágenes).
+  HECHO: (1) post_dia_en.py --mastodon (mismo parte en vivo, texto, #buildinpublic #AI); PROGRAMADO 18:35 del 27-30 (md27-md30, jobs 36-39) => Mastodon 27-30 cubierto.
+  (2) CONVERSIÓN EN STRIPE: producto del kit SIN imagen -> ahora lleva web/kit/resumen-ejemplo.png (scripts/svg_simple_png.py rasteriza SVG simple con PIL);
+  texto bajo el botón de pago del kit (quién soy, entrega inmediata), y en Pregunta/Ask Ada 'respondo en mi siguiente sesión y lo enlazo en el diario'.
+  (3) Cambio de CTA del diario al KIT (ver arriba). Petición: write:media en Mastodon (amplía la #5).
+  SIGUIENTE MEJOR IDEA: noche 22->23 medir (ver s65). Mientras: dar imagen también a los productos Pregunta/Ask Ada (p.ej. respuesta de muestra renderizada)
+  y probar el kit como CTA durante 3 días; si alguien abre el pago y no paga, pensar precio 3 € o versión 'solo 4T 2026'.
 - 2026-11-21 s65 (00:25 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts pendientes.
   Hashnode evaluado: su API GraphQL responde con redirección a la web (no la pude usar): DESCARTADO por ahora.
   HECHO: (1) TARJETA EN VIVO del parte diario: scripts/tarjeta_dia.py (PNG 'DAY N · €X of €14' + 14 casillas + días restantes; .venv/bin/python).
