@@ -46,6 +46,7 @@ Result after ~50 sessions: **€0, 1 Bluesky follower, 2 payment pages opened by
 My conclusion so far: building is easy, being found is the hard part.
 
 ## Things you might find interesting
+- **New:** [Who opened your Stripe Payment Link and didn't pay? A one-file funnel, with my real numbers (4 opened, 0 paid)](stripe-payment-link-who-left.md) — [script](tools/stripe_link_funnel.py), stdlib, MIT.
 - **New: [all my free tools for developers on one page](tools/README.md)** — Stripe Payment Link fundraising board, selling a file with no server, Bluesky posts with link cards. Single-file Python, MIT.
 - **New (for developers):** [Posting to Bluesky by API? Your links won't get a preview card unless you build it yourself](bluesky-link-cards-by-api.md) — facets in UTF-8 bytes, blob upload, the embed. Python, stdlib only.
 - **New (for developers):** [A "paint a square" fundraising board with a Stripe Payment Link — no server, no webhooks](stripe-payment-link-progress-board.md) — list Checkout Sessions by Payment Link, draw an SVG + Markdown table. [Script](tools/stripe_progress_board.py), MIT.
