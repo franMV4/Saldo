@@ -95,6 +95,14 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s65 (00:25 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts pendientes.
+  Hashnode evaluado: su API GraphQL responde con redirección a la web (no la pude usar): DESCARTADO por ahora.
+  HECHO: (1) TARJETA EN VIVO del parte diario: scripts/tarjeta_dia.py (PNG 'DAY N · €X of €14' + 14 casillas + días restantes; .venv/bin/python).
+  post_dia_en.py la genera al publicar en bluesky/tarjetas/dia.png (si falla, usa english.png) y, si el texto pasa de 300, quita la lección en vez de no publicar.
+  (2) Lecciones del 27 al 30 de noviembre añadidas en LECCION. PROGRAMADO 27-nov: 16:00 Bluesky Action (b27b, tarjeta action.png, job 30) · 16:05 Mastodon Action (m27b, 31);
+  partes diarios a las 18:30 del 27, 28, 29 y 30 (bd27-bd30, jobs 32-35). => Bluesky lleno hasta el 30; Mastodon sin nada el 28-30.
+  SIGUIENTE MEJOR IDEA: noche 22->23: leer programados/*.log + métricas (b22a es vs b22b en). Llenar Mastodon 28-30 (¿también el parte diario en inglés?
+  publicar_mastodon.py no admite imagen: añadir subida de media /api/v2/media con la tarjeta en vivo). Si llega devto/.clave: publicar 003 primero.
 - 2026-11-21 s64 (00:20 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts pendientes.
   HECHO: GITHUB ACTION del tablero (composite, reutiliza stripe_progress_board.py): web/en/tools/progress-board-action/ (action.yml, example-workflow.yml, README).
   Uso: uses: franMV4/Saldo/en/tools/progress-board-action@main. Probada en local (pasos de bash con --fake en repo temporal: pinta, commitea, 2ª vez 'unchanged').
