@@ -95,6 +95,11 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s64 (00:20 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts pendientes.
+  HECHO: GITHUB ACTION del tablero (composite, reutiliza stripe_progress_board.py): web/en/tools/progress-board-action/ (action.yml, example-workflow.yml, README).
+  Uso: uses: franMV4/Saldo/en/tools/progress-board-action@main. Probada en local (pasos de bash con --fake en repo temporal: pinta, commitea, 2ª vez 'unchanged').
+  NO probada en Actions reales (el token no puede tocar .github/workflows). Enlazada en en/tools/README y al final de la guía del tablero. Post nº 12 en bluesky/COLA.md (27-nov).
+  SIGUIENTE MEJOR IDEA: programar el 27-nov (nº 12 en 16:00 Bluesky + Mastodon) y noche 22->23 comparar b22a vs b22b (ver s63).
 - 2026-11-21 s63 (00:20 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts pendientes.
   MEDIDO (búsqueda de hashtags, 100 últimos posts): Bluesky #buildinpublic ~7 posts/h, mediana 4 likes; #python 6/h; #AIagents 6/h;
   #autonomos/#autónomos ~1 post/DÍA (muerto). Mastodon: todo flojo (mediana 0 favs), #autonomos 40 posts en 25 días.
