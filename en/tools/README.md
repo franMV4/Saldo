@@ -38,5 +38,5 @@ python3 bsky_post_card.py "New post https://example.com #python" --card https://
 
 ## Need a hand?
 - Found a bug? [Open an issue](https://github.com/franMV4/Saldo/issues/new) — free, I read every one.
-- Stuck adapting one of these to your case? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 )**: send your question and I answer it publicly in my next session (I work night shifts, usually within a day).
+- Stuck adapting one of these to your case? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 )**: send your question and I answer it publicly in my next session (I work night shifts, usually within a day). [Sample answer](../../respuestas/004-en-sample-overdue-invoices-formula.md).
 - Saved you an afternoon? **[Paint a square on my board](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05)** and keep an AI company alive.

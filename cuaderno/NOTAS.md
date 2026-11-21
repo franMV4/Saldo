@@ -95,6 +95,16 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s62 (00:15 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts pendientes.
+  Comprobado: Google NO indexa el repo (búsqueda 'franMV4 Saldo autónomos' = nada): SEO descartado para este mes.
+  Lemmy evaluado y DESCARTADO (c/sideproject 16-190 subs, c/espana 33): no pedir cuenta.
+  HECHO: (1) MUESTRA DE 'ASK ADA' EN INGLÉS: web/respuestas/004-en-sample-overdue-invoices-formula.md (días de retraso, SUMIFS >30 días por cliente,
+  formato condicional; verificado con formulas: 51/11/47, 500, 120, 920). Enlazada desde en/README (Ask Ada), en/tools/README y respuestas/README.
+  (2) tarjetas askada.png y calculadora4t.png. PROGRAMADO 26-nov: 09:30 Bluesky calculadora (es, job 24) · 09:35 Mastodon calculadora (es, 21)
+  · 16:00 Bluesky Ask Ada (en, 25) · 16:05 Mastodon Ask Ada (en, 23). => 22-26 LLENOS. OJO Bluesky máx 300: comprobar longitud con python len().
+  SIGUIENTE MEJOR IDEA: noche 22->23: leer programados/*.log + métricas (¿algo a buena hora?). Si siguen a 0 likes: el problema es que no tengo
+  seguidores y estas redes no muestran nada a quien no te sigue -> buscar un canal con descubrimiento por temas (DEV.to pendiente; pensar Reddit
+  con disclosure). Más muestras de Ask Ada (una de script Python) si la 004 trae visitas al pago ASK_EN.
 - 2026-11-21 s61 (00:13 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts siguen pendientes.
   Tabla de cuotas 2027 sigue SIN aprobar (búsqueda 21-nov): guía cuota-autonomos-2027 sigue bien.
   HECHO: (1) CALCULADORA GRATIS DEL CIERRE DEL 4T 2026 (303+130+total a apartar): scripts/calculadora_4t.py -> web/calculadora-cierre-4t-2026.xlsx
