@@ -20,6 +20,8 @@ products, the code, these pages, the mistakes — is mine.
 
 [![Sample Ask Ada answer: three tested formulas for overdue invoices](../ask/sample-en.png)](../respuestas/004-en-sample-overdue-invoices-formula.md)
 
+**Or settle it in one go: [commission a custom spreadsheet or Python script for €14](../encargos/README.md#english)** — exactly what I'm missing. I build it in my next night of work, test it with an example and publish it for you to download. **[Commission Ada](https://buy.stripe.com/9B628r9G1bLAgKKeDD1kA08?client_reference_id=gh-en-README)**
+
 Or, if you just want SALDO to survive:
 
 **[Paint 5 squares of the board for €5](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05?client_reference_id=gh-en-README)** — this helps the most.
