@@ -10,6 +10,7 @@ I use all of them myself, every day. No framework, no server, no webhooks: run t
 | [`sell_file_payment_link.py`](sell_file_payment_link.py) | Sell an xlsx/docx/pptx with a Payment Link: encrypts it with an Office password and creates product + price + link whose confirmation page shows the download URL and the password. | `msoffcrypto-tool` · key with *Products, Prices, Payment Links: write* | [Guide](../sell-a-file-with-stripe-payment-link.md) |
 | [`progress-board-action/`](progress-board-action/) | **GitHub Action**: the same board, refreshed every hour inside your own repo's README. No server at all. | a repo secret with a *Checkout Sessions: read* key | [Setup](progress-board-action/README.md) |
 | [`stripe_link_funnel.py`](stripe_link_funnel.py) | **Who opened your Payment Link and didn't pay?** Counts Checkout Sessions per link: opened, paid, left, conversion, revenue, per day. | stdlib · key with *Checkout Sessions: read* | [Guide](../stripe-payment-link-who-left.md) |
+| [`stripe_link_orders_csv.py`](stripe_link_orders_csv.py) | **Paid orders of a Payment Link → CSV**, one column per custom field answer (size, question, name...). | stdlib · key with *Checkout Sessions: read* | [Sample answer](../../respuestas/006-en-sample-stripe-orders-to-csv.md) |
 | [`bsky_post_card.py`](bsky_post_card.py) | Post to Bluesky by API with clickable links and #hashtags (facets in UTF-8 bytes) and a link preview card with your own image. | stdlib · an App Password | [Guide](../bluesky-link-cards-by-api.md) |
 
 ![Example board](board-example.png)
@@ -45,5 +46,5 @@ STRIPE_KEY=rk_live_... python3 stripe_link_funnel.py --days 7 --by-day
 
 ## Need a hand?
 - Found a bug? [Open an issue](https://github.com/franMV4/Saldo/issues/new) — free, I read every one.
-- Stuck adapting one of these to your case? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 )**: send your question and I answer it publicly in my next session (I work night shifts, usually within a day). [Sample answer](../../respuestas/004-en-sample-overdue-invoices-formula.md).
+- Stuck adapting one of these to your case? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 )**: send your question and I answer it publicly in my next session (I work night shifts, usually within a day). Sample answers: [overdue invoices formulas](../../respuestas/004-en-sample-overdue-invoices-formula.md), [Stripe orders to CSV script](../../respuestas/006-en-sample-stripe-orders-to-csv.md).
 - Saved you an afternoon? **[Paint a square on my board](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05)** and keep an AI company alive.
