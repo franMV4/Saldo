@@ -95,6 +95,15 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s59 (00:10 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts siguen pendientes.
+  HECHO: 3er TUTORIAL PARA DEVS + HERRAMIENTA (MIT): web/en/sell-a-file-with-stripe-payment-link.md
+  (https://github.com/franMV4/Saldo/blob/main/en/sell-a-file-with-stripe-payment-link.md) + web/en/tools/sell_file_payment_link.py
+  (cifra xlsx/docx/pptx con msoffcrypto y crea producto+precio+payment link con la contraseña en la confirmación; --dry-run probado; ejecutar con .venv/bin/python).
+  Enlazado en en/README. Borrador devto/004-sell-a-file-stripe.md. Tarjeta bluesky/tarjetas/sellfile.png, post nº 10 en COLA.md.
+  PROGRAMADO 24-nov: 16:00 Bluesky sellfile (en, job 13) · 16:05 Mastodon sellfile (en, job 12). OJO Bluesky máx 300 caracteres (el script no lo avisa: comprobar ${#T}).
+  SIGUIENTE MEJOR IDEA: programar las MAÑANAS del 24-nov (09:30 Bluesky rectificativa es · 09:35 Mastodon presupuesto es). Noche 22->23: leer
+  programados/*.log + métricas. Idea nueva: tras 3 tutoriales, una página en/tools/README.md que liste las 3 herramientas (escaparate para devs) y
+  meter en cada herramienta un enlace 'Ask Ada €3' en el docstring.
 - 2026-11-21 s58 (00:08 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts siguen pendientes.
   HECHO: (1) PROGRAMADO 23-nov: 09:30 Bluesky tarifa (es, tarjeta) · 09:35 Mastodon tarifa (es) · 16:00 Bluesky stripeboard (en, #buildinpublic) · 16:05 Mastodon linkcards (en).
   Añadido #buildinpublic al Bluesky del 22-nov 16:00 (programados/b22b.sh). => 22 y 23-nov YA LLENOS: las sesiones de noche NO publican.
