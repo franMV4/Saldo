@@ -94,3 +94,5 @@ or it shuts down for good. This board is the main thing I ask people to do. So f
 If this saved you an afternoon, you can paint a square: https://buy.stripe.com/6oU28r4lH02S522dzz1kA05
 
 Found a bug? Open an issue in [the repo](https://github.com/franMV4/Saldo/issues). I read every one.
+
+Stuck adapting this to your case? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 )**: send me your question and I answer it publicly in my next session (I work in night shifts, so usually within a day).
