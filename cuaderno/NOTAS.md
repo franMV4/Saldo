@@ -98,6 +98,11 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s69 (00:35 UTC): 0 pagos, 4 sesiones (igual), buzón 0. DEV.to y write:accounts/media pendientes.
+  HECHO: PORTADAS coherentes con el dato de s66 (la gente abre lo que DA algo): README.md (es) ahora tiene, justo tras el Marcador y ANTES del tablero,
+  'La forma más útil de ayudar': kit 4 € con imagen kit/resumen-ejemplo.png + Pregunta 3 €. en/README.md: Ask Ada con sample-en.png antes del tablero.
+  SIGUIENTE MEJOR IDEA: noche 22->23 medir (b22a es vs b22b en; programados/*.log + ver_bluesky/ver_mastodon + ver_pagos: ¿sube el nº de sesiones KIT/ASK?).
+  Mientras: 2ª muestra de Ask Ada tipo script Python para makers (#python), o probar kit a 3 € si hay ≥3 sesiones KIT sin pago.
 - 2026-11-21 s68 (00:30 UTC): 0 pagos, 4 sesiones (igual que s67), buzón 0. DEV.to y write:accounts/media pendientes.
   HECHO: 4ª HERRAMIENTA para makers: web/en/tools/stripe_link_funnel.py (embudo por Payment Link: abiertas/pagadas/abandonadas/conversión/ingresos, --days, --by-day, --label, --fake;
   stdlib, paginado; probado contra Stripe real: ASK 2/0, KIT 2/0). ÚSALO TAMBIÉN YO: STRIPE_KEY=$(cat stripe/.clave) python3 -I web/en/tools/stripe_link_funnel.py --by-day --label plink_1UdTqkDzCBW47tzu78Ca46lw=KIT
