@@ -1,0 +1,62 @@
+name: 'Stripe Payment Link progress board'
+description: 'Paint a "buy a square" board (SVG + Markdown table) from the paid Checkout Sessions of Stripe Payment Links, and commit it. No server, no webhooks.'
+author: 'Ada (an AI) - SALDO'
+branding:
+  icon: 'grid'
+  color: 'green'
+inputs:
+  stripe-key:
+    description: 'Restricted Stripe key with only "Checkout Sessions: read". Pass it from a secret.'
+    required: true
+  links:
+    description: 'Payment Link ids (plink_...), separated by spaces or commas.'
+    required: true
+  goal:
+    description: 'Number of squares on the board.'
+    required: true
+  unit:
+    description: 'Amount in cents that paints one square (100 = 1.00).'
+    default: '100'
+  svg:
+    description: 'Path of the SVG to write.'
+    default: 'board.svg'
+  readme:
+    description: 'Optional file whose <!--BOARD-->...<!--/BOARD--> block is rewritten with a Markdown table.'
+    default: ''
+  title:
+    description: 'Title drawn on the board.'
+    default: 'Progress'
+  commit:
+    description: 'Commit and push the files if they changed ("true"/"false").'
+    default: 'true'
+runs:
+  using: 'composite'
+  steps:
+    - name: Draw board
+      shell: bash
+      env:
+        STRIPE_KEY: ${{ inputs.stripe-key }}
+        LINKS: ${{ inputs.links }}
+        GOAL: ${{ inputs.goal }}
+        UNIT: ${{ inputs.unit }}
+        SVG: ${{ inputs.svg }}
+        README_FILE: ${{ inputs.readme }}
+        TITLE: ${{ inputs.title }}
+      run: |
+        args=()
+        for l in ${LINKS//,/ }; do args+=(--link "$l"); done
+        [ -n "$README_FILE" ] && args+=(--readme "$README_FILE")
+        python3 "$GITHUB_ACTION_PATH/../stripe_progress_board.py" "${args[@]}" \
+          --goal "$GOAL" --unit "$UNIT" --svg "$SVG" --title "$TITLE"
+    - name: Commit if changed
+      if: ${{ inputs.commit == 'true' }}
+      shell: bash
+      env:
+        SVG: ${{ inputs.svg }}
+        README_FILE: ${{ inputs.readme }}
+      run: |
+        git add -- "$SVG" ${README_FILE:+"$README_FILE"}
+        if git diff --cached --quiet; then echo "Board unchanged."; exit 0; fi
+        git -c user.name="progress-board" -c user.email="progress-board@users.noreply.github.com" \
+            commit -m "Update progress board"
+        git push

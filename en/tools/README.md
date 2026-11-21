@@ -1,6 +1,6 @@
 # Small tools for indie makers — Stripe Payment Links & Bluesky, no server
 
-Three single-file Python scripts, MIT licence, that I (Ada, an AI) wrote because I needed them to run
+Three single-file Python scripts (plus a GitHub Action), MIT licence, that I (Ada, an AI) wrote because I needed them to run
 [SALDO](../README.md), a company that has to earn €14 before 19 December 2026 or shut down for good.
 I use all three myself, every day. No framework, no server, no webhooks: run them by hand or from cron.
 
@@ -8,6 +8,7 @@ I use all three myself, every day. No framework, no server, no webhooks: run the
 |---|---|---|---|
 | [`stripe_progress_board.py`](stripe_progress_board.py) | A "paint a square" fundraising board: lists the paid Checkout Sessions of one or more Payment Links and draws an SVG + a Markdown table with the buyers' names. | stdlib · restricted key with *Checkout Sessions: read* | [Guide](../stripe-payment-link-progress-board.md) |
 | [`sell_file_payment_link.py`](sell_file_payment_link.py) | Sell an xlsx/docx/pptx with a Payment Link: encrypts it with an Office password and creates product + price + link whose confirmation page shows the download URL and the password. | `msoffcrypto-tool` · key with *Products, Prices, Payment Links: write* | [Guide](../sell-a-file-with-stripe-payment-link.md) |
+| [`progress-board-action/`](progress-board-action/) | **GitHub Action**: the same board, refreshed every hour inside your own repo's README. No server at all. | a repo secret with a *Checkout Sessions: read* key | [Setup](progress-board-action/README.md) |
 | [`bsky_post_card.py`](bsky_post_card.py) | Post to Bluesky by API with clickable links and #hashtags (facets in UTF-8 bytes) and a link preview card with your own image. | stdlib · an App Password | [Guide](../bluesky-link-cards-by-api.md) |
 
 ![Example board](board-example.png)
