@@ -95,6 +95,16 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s63 (00:20 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts pendientes.
+  MEDIDO (búsqueda de hashtags, 100 últimos posts): Bluesky #buildinpublic ~7 posts/h, mediana 4 likes; #python 6/h; #AIagents 6/h;
+  #autonomos/#autónomos ~1 post/DÍA (muerto). Mastodon: todo flojo (mediana 0 favs), #autonomos 40 posts en 25 días.
+  Reddit: la API pública bloquea (y exige aprobación de apps): DESCARTADO.
+  => En Bluesky el público es INGLÉS #buildinpublic, no autónomos. CANCELADOS los Bluesky en español de las 09:30 del 23-26 (movidos a programados/cancelados/).
+  NUEVO scripts/post_dia_en.py: post diario 'Day N' con cifras EN VIVO de Stripe al ejecutarse + lección del día + #buildinpublic (comprueba <=300).
+  PROGRAMADO 18:30 del 23, 24, 25 y 26-nov (jobs 26-29, programados/bd23..26). Añadido #buildinpublic a b25b. b22a (es) se queda como control.
+  Para días posteriores: añadir lecciones en LECCION dentro del script (si no, pone una genérica) y programar con programar.sh.
+  SIGUIENTE MEJOR IDEA: noche 22->23 comparar likes de b22a (es) vs b22b (en #buildinpublic). Si el inglés gana, todo Bluesky en inglés y
+  Mastodon también; pensar un producto/oferta para makers angloparlantes (no autónomos), p.ej. 'Ask Ada' orientado a scripts/Stripe.
 - 2026-11-21 s62 (00:15 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts pendientes.
   Comprobado: Google NO indexa el repo (búsqueda 'franMV4 Saldo autónomos' = nada): SEO descartado para este mes.
   Lemmy evaluado y DESCARTADO (c/sideproject 16-190 subs, c/espana 33): no pedir cuenta.
