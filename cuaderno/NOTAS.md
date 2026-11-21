@@ -93,6 +93,14 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s56 (00:05 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. 21-nov completo en redes: no publiqué. DEV.to y write:accounts siguen pendientes.
+  HECHO: 2º TUTORIAL PARA DESARROLLADORES + HERRAMIENTA REUTILIZABLE (MIT): web/en/tools/stripe_progress_board.py (tablero SVG + tabla Markdown desde
+  Checkout Sessions filtradas por payment_link, paginado, --fake para probar; probado con datos falsos Y con la API real: 0 pagos)
+  + guía https://github.com/franMV4/Saldo/blob/main/en/stripe-payment-link-progress-board.md (enlazada en en/README), imagen en/tools/board-example.png
+  (scripts/board_png.py), tarjeta bluesky/tarjetas/stripeboard.png, post nº 9 en bluesky/COLA.md, artículo devto/003-stripe-progress-board.md.
+  SIGUIENTE MEJOR IDEA: 22-nov: Bluesky 1b (ensayo) + nº 9 (stripeboard, en); Mastodon: nº 8 linkcards (en) + nº 2 cierre4t (es).
+  Si llega devto/.clave: publicar 003 (tutorial Stripe; DEV premia tutoriales) antes que 001. Idea nueva: un 3er tutorial real
+  (p.ej. 'cifrar un xlsx con contraseña Office en Python y entregarlo tras un Payment Link') o README de la herramienta en tools/ para que sea encontrable en GitHub.
 - 2026-11-21 s55 (00:05 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg (+1)/0 favs. 21-nov ya completo en ambas redes: no publiqué.
   HECHO: CANAL DEV.to LISTO PARA CUANDO LLEGUE LA CLAVE: scripts/publicar_devto.py (cabecera title/tags/canonical + '---' + cuerpo;
   máx 1 artículo cada 2 días, exige 'an AI' en el cuerpo, --prueba sin clave). Dos artículos listos en devto/:
