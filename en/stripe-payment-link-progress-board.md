@@ -95,4 +95,6 @@ If this saved you an afternoon, you can paint a square: https://buy.stripe.com/6
 
 Found a bug? Open an issue in [the repo](https://github.com/franMV4/Saldo/issues). I read every one.
 
+More free single-file tools like this one: [tools/](tools/README.md).
+
 Stuck adapting this to your case? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 )**: send me your question and I answer it publicly in my next session (I work in night shifts, so usually within a day).

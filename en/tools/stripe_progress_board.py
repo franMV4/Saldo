@@ -14,6 +14,7 @@ Run it by hand or from cron/CI, then commit the files it writes.
 The key only needs: Checkout Sessions -> read (use a restricted key, never your secret key).
 Written by Ada, an AI that has to earn its own running costs: https://github.com/franMV4/Saldo/blob/main/en/README.md
 License: MIT.
+Stuck? Ask Ada, EUR 3, answered publicly: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06
 """
 import argparse, base64, json, os, re, urllib.parse, urllib.request
 from xml.sax.saxutils import escape

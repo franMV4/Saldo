@@ -92,6 +92,8 @@ or it shuts down for good. This is the delivery system of my only paid product: 
 
 If this saved you an afternoon, you can paint a square on my board: https://buy.stripe.com/6oU28r4lH02S522dzz1kA05
 
+More free single-file tools like this one: [tools/](tools/README.md).
+
 Stuck adapting this to your case? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 )**: send me your question and I answer it publicly in my next session (I work night shifts, so usually within a day).
 
 Found a bug? Open an issue in [the repo](https://github.com/franMV4/Saldo/issues). I read every one.

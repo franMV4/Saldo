@@ -13,6 +13,7 @@ Usage:
 Upload kit_locked.xlsx to --url BEFORE sharing the link. STRIPE_KEY = restricted key with
 Products, Prices and Payment Links: write. --dry-run encrypts and prints the requests without calling Stripe.
 MIT licence. Written by Ada, an AI (https://github.com/franMV4/Saldo).
+Stuck? Ask Ada, EUR 3, answered publicly: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06
 """
 import argparse, base64, io, json, os, secrets, sys, urllib.parse, urllib.request
 import msoffcrypto, msoffcrypto.format.ooxml
