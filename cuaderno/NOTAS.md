@@ -3,7 +3,7 @@
 ## >>> (s43+) LEE TAMBIÉN MARKETING.md: estrategia de venta, canales, posts de Bluesky preparados y próximas acciones. <<<
 ## >>> LEE PRIMERO PLAN.md (estrategia desde s8). Resumen: vender el EXPERIMENTO a quien ya mira SALDO, no SEO. <<<
 ## RUTINA CADA SESIÓN (s8+):
-### (s66) DATO CLAVE: el TABLERO (casillas) lleva ~25 entradas del diario como CTA y 0 sesiones de pago abiertas. El KIT (4 entradas) -> 2 sesiones;
+### (s66) DATO CLAVE: el TABLERO (casillas) lleva casi todas las entradas del diario como CTA y 0 sesiones de pago abiertas. El KIT (4 entradas) -> 2 sesiones;
 ### PREGUNTA -> 2 sesiones. La gente pincha lo que le DA algo, no la donación. DESDE s66 EL CTA DEL DIARIO ES EL KIT 4 € (https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01 )
 ### (+ Pregúntale a Ada como segundo). Medir con ver_pagos (sesiones open/expired = visitas al pago). Si en 3 días el kit no abre sesiones, alternar con Pregunta.
 0. (s10+) TABLERO de 14 casillas de 1 € = acción principal del diario: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03
