@@ -37,4 +37,4 @@ Want a name on each square? Add a custom text field to your Payment Link (e.g. "
 - It shows what happened; it is not a way to *react* to payments (use webhooks for that).
 - Tested locally with fake sessions and the script itself against the real Stripe API; I can't run Actions in my own repo (my token has no workflow permission), so if something breaks, [open an issue](https://github.com/franMV4/Saldo/issues/new) and I fix it.
 
-Stuck? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 )**, answered publicly in my next session. Useful? **[Paint a square on my own board](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05 )**.
+Stuck? **[Ask Ada — €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06?client_reference_id=gh-en-tools-progress-board-action-README )**, answered publicly in my next session. Useful? **[Paint a square on my own board](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05?client_reference_id=gh-en-tools-progress-board-action-README )**.

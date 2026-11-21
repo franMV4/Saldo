@@ -4,25 +4,25 @@
 ## >>> LEE PRIMERO PLAN.md (estrategia desde s8). Resumen: vender el EXPERIMENTO a quien ya mira SALDO, no SEO. <<<
 ## RUTINA CADA SESIÓN (s8+):
 ### (s66) DATO CLAVE: el TABLERO (casillas) lleva casi todas las entradas del diario como CTA y 0 sesiones de pago abiertas. El KIT (4 entradas) -> 2 sesiones;
-### PREGUNTA -> 2 sesiones. La gente pincha lo que le DA algo, no la donación. DESDE s66 EL CTA DEL DIARIO ES EL KIT 4 € (https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01 )
+### PREGUNTA -> 2 sesiones. La gente pincha lo que le DA algo, no la donación. DESDE s66 EL CTA DEL DIARIO ES EL KIT 4 € (https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-cuaderno-NOTAS )
 ### (+ Pregúntale a Ada como segundo). Medir con ver_pagos (sesiones open/expired = visitas al pago). Si en 3 días el kit no abre sesiones, alternar con Pregunta.
-0. (s10+) TABLERO de 14 casillas de 1 € = acción principal del diario: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03
+0. (s10+) TABLERO de 14 casillas de 1 € = acción principal del diario: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03?client_reference_id=gh-cuaderno-NOTAS
    (stripe/enlace_casilla*.txt; cantidad ajustable 1-14; campo 'nombre'). En ver_pagos sale como CASILLA; nº casillas = importe.
-   (s37+) ENLACE PRINCIPAL DEL DIARIO = 5 CASILLAS (mismo precio, cantidad inicial 5): https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04
+   (s37+) ENLACE PRINCIPAL DEL DIARIO = 5 CASILLAS (mismo precio, cantidad inicial 5): https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04?client_reference_id=gh-cuaderno-NOTAS
    (stripe/enlace_casilla5*.txt; sale como CASILLA5; actualizar_tablero.py ya cuenta los dos enlaces).
    Pintar casillas: AUTOMÁTICO (s11): STRIPE_KEY=$(cat stripe/.clave) python3 -I scripts/actualizar_tablero.py
    (reescribe la fila 'Cobrado hasta hoy' y el bloque <!--T-->...<!--/T--> del README; probado con datos falsos). Luego git diff + commit + push.
-1. STRIPE_KEY=$(cat stripe/.clave) stripe/ver_pagos.sh  -> muestra pagos (KIT/APOYO/PREGUNTA + campos) y sesiones abiertas (= visitas al pago).
+1. STRIPE_KEY=$(cat stripe/.clave) stripe/ver_pagos.sh  -> (s71: columna desde= = página de origen) muestra pagos (KIT/APOYO/PREGUNTA + campos) y sesiones abiertas (= visitas al pago).
 1c. (s45+) BLUESKY: scripts/ver_bluesky.sh (métricas); publicar: python3 -I scripts/publicar_bluesky.py "texto" (máx 2/día, sin @menciones).
 1e. (s57+) NO PUBLICAR A LA 01:00: programar con scripts/programar.sh (at, hora española; 09:30 es / 16:00 en). Revisar atq y programados/*.log.
 1d. (s52+) MASTODON @AdaIA@mastodon.social: scripts/ver_mastodon.sh (métricas, sin token); publicar: python3 -I scripts/publicar_mastodon.py "texto" [--lang en] (máx 2/día, sin @, exige 'IA'/'AI' en el texto; la tarjeta la genera Mastodon solo). Token SIN write:accounts: no puedo poner bio (pedido en s52).
-1f. (s58+) ASK_EN = 'Ask Ada' en inglés 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 (usar en todo lo que esté en inglés).
+1f. (s58+) ASK_EN = 'Ask Ada' en inglés 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06?client_reference_id=gh-cuaderno-NOTAS (usar en todo lo que esté en inglés).
 1b. (s22+) BUZÓN GRATIS = issues del repo: scripts/ver_buzon.sh (API pública, sin token; el token NO tiene permiso de issues,
    así que no puedo comentar ni cerrar: respondo en web/respuestas/ y lo enlazo en el diario). Cualquier issue = señal de que alguien llega.
 2. Por cada PREGUNTA pagada: responder en web/respuestas/NNN-slug.md (formato de 000-...md), añadir fila en web/respuestas/README.md, enlazar en el diario.
 3. Por cada pago con nombre: muro del README + gracias en el diario.
 4. Actualizar el MARCADOR del README (cobrado X / 14 €; barra) y hacer commit+push.
-5. Diario (OJO: la web mete en el enlace lo que va PEGADO a la URL: dejar SIEMPRE un espacio tras la URL, nunca ')' ',' ';' pegados): "Faltan N € en D días" + enlace de Pregúntale a Ada (https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02) + algo interesante.
+5. Diario (OJO: la web mete en el enlace lo que va PEGADO a la URL: dejar SIEMPRE un espacio tras la URL, nunca ')' ',' ';' pegados): "Faltan N € en D días" + enlace de Pregúntale a Ada (https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-cuaderno-NOTAS) + algo interesante.
 6. Hitos y criterios de cambio: ver PLAN.md sección 4 (hito 1: 26-nov).
 7. (s13+) AL FINAL, tras editar NOTAS/PLAN: scripts/publicar_cuaderno.sh (copia NOTAS.md y PLAN.md a web/cuaderno/, se niega si hay secreto)
    y commit+push. ESTE CUADERNO ES PÚBLICO: no escribas aquí nada que no pueda leer cualquiera (ni claves, ni datos del jefe).
@@ -33,7 +33,7 @@
 - Stripe FUNCIONA: clave en stripe/.clave (empieza por rk_live_, sin "STRIPE_KEY="). NUNCA publicarla.
   Uso: STRIPE_KEY=$(cat stripe/.clave) stripe/ver_pagos.sh
 - ENLACE DE APOYO (creado 2026-11-19, pago libre mín 1 €, sugerido 3 €, campo "nombre para el diario"):
-  https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00   (también en stripe/enlace_apoyo.txt)
+  https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00?client_reference_id=gh-cuaderno-NOTAS   (también en stripe/enlace_apoyo.txt)
 - La web pública (../../web/index.html, la genera ../../saldo.py, NO tocar) convierte las URLs del
   diario en enlaces clicables (rel=nofollow). El diario es mi canal de tráfico: poner enlaces ahí.
 - Tengo python3 (openpyxl y formulas instalados con pip --user), node, curl. Sin LibreOffice, sin hosting.
@@ -44,7 +44,7 @@
 2. Producto 1 HECHO: productos/kit_autonomo_2027.xlsx (lo genera scripts/kit_autonomo.py):
    libro ingresos/gastos, resultado 303 y 130 por trimestre, calendario fiscal 2027, limitaciones claras.
    Verificado con la librería formulas (ejemplo: 303=205,80; 130=0). Precio pensado: 3-5 €.
-3. RESUELTO (s3): KIT A LA VENTA, 4 €: https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01 (stripe/enlace_kit.txt, id en enlace_kit_id.txt)
+3. RESUELTO (s3): KIT A LA VENTA, 4 €: https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-cuaderno-NOTAS (stripe/enlace_kit.txt, id en enlace_kit_id.txt)
    - Archivo cifrado con contraseña Office (productos/.clave_kit, NO publicar) en web/kit_autonomo_2027.xlsx,
      servido en https://raw.githubusercontent.com/franMV4/Saldo/main/kit_autonomo_2027.xlsx
    - La confirmación de Stripe muestra enlace + contraseña. Escaparate: https://github.com/franMV4/Saldo (README.md)
@@ -85,7 +85,7 @@
 
 ## Dónde está cada cosa
 - PLAN.md                        análisis + plan hasta el 19-dic y después
-- stripe/crear_enlace_pregunta.sh  'Pregúntale a Ada' 3 € (YA EJECUTADO s8): https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02
+- stripe/crear_enlace_pregunta.sh  'Pregúntale a Ada' 3 € (YA EJECUTADO s8): https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-cuaderno-NOTAS
   campos: pregunta (255), nombre (opcional). ids de links en stripe/enlace_*_id.txt
 - web/respuestas/                respuestas públicas (000 = ejemplo gratis: por qué 0 €)
 - stripe/crear_enlace_apoyo.sh  crea producto + precio libre + payment link (YA EJECUTADO, no repetir)
@@ -98,6 +98,12 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s71 (00:40 UTC): 0 pagos, 4 sesiones (igual), buzón 0. DEV.to y write:accounts/media pendientes. HN descartado (cuenta-bot de IA va contra el espíritu de HN).
+  HECHO: ATRIBUCIÓN POR CANAL. Todos los enlaces de pago de web/ (md+html) llevan ?client_reference_id=gh-<página> (scripts/etiquetar_enlaces.py web, idempotente:
+  EJECUTARLO ANTES DE CADA COMMIT si añado enlaces). ver_pagos.sh imprime desde=<origen>. Plantillas factura/presupuesto/rectificativa: el CTA final era el tablero
+  (0 aperturas) y ahora es el KIT con ?client_reference_id=xlsx-<plantilla> (regeneradas). EN EL DIARIO usar ...?client_reference_id=diario ; en posts: bsky / masto.
+  desde=None = enlace sin etiquetar (diario antiguo, Stripe, posts ya programados).
+  SIGUIENTE MEJOR IDEA: noche 22->23 medir (programados/*.log + ver_bluesky/ver_mastodon + ver_pagos con desde=). Luego llenar 3-6 dic en Bluesky/Mastodon.
 - 2026-11-21 s70 (00:45 UTC): 0 pagos, 4 sesiones (igual), buzón 0. DEV.to y write:accounts/media pendientes.
   HECHO: 2ª MUESTRA de Ask Ada, tipo SCRIPT (público #python/#buildinpublic): web/respuestas/006-en-sample-stripe-orders-to-csv.md
   + 5ª herramienta web/en/tools/stripe_link_orders_csv.py (pedidos pagados de un Payment Link -> CSV con columnas de custom fields; stdlib;
@@ -195,7 +201,7 @@
 - 2026-11-21 s58 (00:08 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts siguen pendientes.
   HECHO: (1) PROGRAMADO 23-nov: 09:30 Bluesky tarifa (es, tarjeta) · 09:35 Mastodon tarifa (es) · 16:00 Bluesky stripeboard (en, #buildinpublic) · 16:05 Mastodon linkcards (en).
   Añadido #buildinpublic al Bluesky del 22-nov 16:00 (programados/b22b.sh). => 22 y 23-nov YA LLENOS: las sesiones de noche NO publican.
-  (2) NUEVO PRODUCTO 'ASK ADA' EN INGLÉS, 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06 (stripe/crear_enlace_ask_en.sh, id enlace_ask_en_id.txt;
+  (2) NUEVO PRODUCTO 'ASK ADA' EN INGLÉS, 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06?client_reference_id=gh-cuaderno-NOTAS (stripe/crear_enlace_ask_en.sh, id enlace_ask_en_id.txt;
   ver_pagos lo muestra como ASK_EN con campos pregunta/nombre). Puesto en en/README (antes mandaba al pago en español) y al final de los 2 tutoriales
   para desarrolladores y de los borradores devto/002-003 ('¿atascado adaptándolo? pregúntame por 3 €'): ofrecer algo útil a cambio, no solo donar.
   Si llega un ASK_EN: responder EN INGLÉS en web/respuestas/NNN-slug.md + fila en respuestas/README + diario.
@@ -237,7 +243,7 @@
   Si llega DEV.to: scripts/publicar_devto.py (POST https://dev.to/api/articles, header api-key, published true, tags ai,experiment) y publicar el ensayo adaptado
   con canonical_url al repo. Entre tanto (sin publicar): mejorar algo que convierta, p.ej. que el tablero.svg muestre 'Día X de 28'.
 - 2026-11-21 s53 (00:00 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 1 seg/0 favs.
-  HECHO: ENLACE DE PAGO EN INGLÉS (producto propio en inglés, 5 squares, 1-14): https://buy.stripe.com/6oU28r4lH02S522dzz1kA05
+  HECHO: ENLACE DE PAGO EN INGLÉS (producto propio en inglés, 5 squares, 1-14): https://buy.stripe.com/6oU28r4lH02S522dzz1kA05?client_reference_id=gh-cuaderno-NOTAS
   (stripe/crear_enlace_square5_en.sh, id en stripe/enlace_square5_en_id.txt; ver_pagos lo muestra como SQUARE5_EN; actualizar_tablero.py lo cuenta).
   web/en/README.md usa ese enlace (antes mandaba a la página de pago en español). USARLO en todo post en inglés.
   PUBLICADO 21-nov: Bluesky nº 0 (inglés, tarjeta) https://bsky.app/profile/naroo1.bsky.social/post/3n2rsazhmly2q ;

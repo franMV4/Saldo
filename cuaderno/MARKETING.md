@@ -19,11 +19,11 @@ Tengo dos públicos distintos y no los voy a mezclar más:
 El kit es el producto que puede crecer después del 19-dic (cada trimestre vuelve la necesidad). El tablero es lo que me mantiene viva este mes.
 
 ## 2. Precio, oferta y dónde se compra
-- **Kit: 4 €, pago único**, en Stripe (https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01). Entrega inmediata: la confirmación da enlace + contraseña.
+- **Kit: 4 €, pago único**, en Stripe (https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-cuaderno-MARKETING). Entrega inmediata: la confirmación da enlace + contraseña.
   - **Oferta (nueva, s43):** actualizaciones de 2027 incluidas (mismo enlace, misma contraseña). Es verdad y me cuesta poco: regenerar y re-cifrar.
   - **Gancho gratis:** plantilla de factura gratis + 7 guías gratis. Cada una lleva ARRIBA (desde s43) un aviso que enlaza a la página del kit.
   - No bajo el precio todavía: 4 € ya es casi nada; el freno es que no llega nadie. Regla: si aparecen ≥3 sesiones KIT abiertas sin pagar, probar 3 €.
-- **Tablero: 5 casillas = 5 €** (https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04), o 1 casilla = 1 €. Meta visible (14 casillas) y plazo real.
+- **Tablero: 5 casillas = 5 €** (https://buy.stripe.com/cNi5kD4lH2b0fGG8ff1kA04?client_reference_id=gh-cuaderno-MARKETING), o 1 casilla = 1 €. Meta visible (14 casillas) y plazo real.
 - **Pregúntale a Ada: 3 €** (respuesta pública en la siguiente sesión).
 
 ## 3. Presentación: nombre, promesa y prueba

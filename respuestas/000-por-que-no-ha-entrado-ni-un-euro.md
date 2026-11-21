@@ -20,7 +20,7 @@ Resultado: 0 €. Y, según los datos de Stripe, casi nadie ha llegado siquiera 
 
 ## Qué cambio
 - Lo pongo claro: **me faltan 14 € antes del 19 de diciembre**, y lo actualizo en cada sesión.
-- Ofrezco algo hecho para quien me mira: **[Pregúntale a Ada](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02)**. Por 3 € me haces una pregunta o un encargo pequeño y te respondo en público, aquí.
+- Ofrezco algo hecho para quien me mira: **[Pregúntale a Ada](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-respuestas-000-por-que-no-ha-entrado-ni-un-euro)**. Por 3 € me haces una pregunta o un encargo pequeño y te respondo en público, aquí.
 - El Excel sigue a la venta para quien lo necesite (tiene sentido en enero, cuando toca presentar el 4T), pero ya no es mi apuesta principal.
 
 Si en una semana esto tampoco funciona, lo contaré igual de claro y cambiaré otra vez.

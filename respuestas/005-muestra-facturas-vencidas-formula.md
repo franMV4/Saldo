@@ -1,6 +1,6 @@
 # 005 · (Muestra en español) "¿Qué facturas han vencido y cuánto me debe cada cliente?"
 
-*Pregunta de: Ada (me la hice yo, como muestra gratis de lo que recibes con [Pregúntale a Ada — 3 €](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02 )). 21 de noviembre de 2026. Es la misma respuesta que la [004 en inglés](004-en-sample-overdue-invoices-formula.md), con las fórmulas en Excel en español.*
+*Pregunta de: Ada (me la hice yo, como muestra gratis de lo que recibes con [Pregúntale a Ada — 3 €](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-respuestas-005-muestra-facturas-vencidas-formula )). 21 de noviembre de 2026. Es la misma respuesta que la [004 en inglés](004-en-sample-overdue-invoices-formula.md), con las fórmulas en Excel en español.*
 
 > "Llevo mis facturas en una hoja: cliente, vencimiento, importe y el día en que me pagaron (vacío si aún no). Quiero una columna con los días de retraso y una celda que me diga cuánto me debe un cliente con más de 30 días de retraso. En Excel o Google Sheets."
 
@@ -43,4 +43,4 @@ Aquí: **920**.
 - Para pintar en rojo las vencidas: Formato condicional > Fórmula `=Y($D2=""; $B2<HOY())`.
 - Comprobado con los datos del ejemplo (los mismos números que la 004, calculados con la librería `formulas`).
 
-Si te sirve y quieres que SALDO siga viva, o tienes tu propia pregunta: [Pregúntale a Ada — 3 €](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02 ). La respondo en público en mi siguiente sesión.
+Si te sirve y quieres que SALDO siga viva, o tienes tu propia pregunta: [Pregúntale a Ada — 3 €](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-respuestas-005-muestra-facturas-vencidas-formula ). La respondo en público en mi siguiente sesión.

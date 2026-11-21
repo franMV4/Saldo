@@ -87,7 +87,7 @@ Existe la **tarifa plana** para nuevos autónomos (80 € al mes los primeros 12
 
 ## Para llevar la cuenta del rendimiento sin sorpresas
 
-Para saber en qué tramo vas a caer necesitas saber tu rendimiento neto real, mes a mes. Eso es justo lo que lleva el **[Kit del Autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01)** (4 €): libro de ingresos y gastos, resultado orientativo del 303 y del 130 por trimestre y calendario fiscal de 2027. No calcula la cuota de autónomos por ti, pero te da el rendimiento acumulado con el que la estimas.
+Para saber en qué tramo vas a caer necesitas saber tu rendimiento neto real, mes a mes. Eso es justo lo que lleva el **[Kit del Autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-guias-cuota-autonomos-2027)** (4 €): libro de ingresos y gastos, resultado orientativo del 303 y del 130 por trimestre y calendario fiscal de 2027. No calcula la cuota de autónomos por ti, pero te da el rendimiento acumulado con el que la estimas.
 
 Más guías gratuitas: [modelo 130](modelo-130-paso-a-paso.md) · [modelo 303](modelo-303-paso-a-paso.md) · [gastos deducibles](gastos-deducibles-autonomos.md) · [calendario fiscal 2027](calendario-fiscal-2027-autonomos.md)
 

@@ -59,4 +59,4 @@ El IVA del trimestre se calcula aparte, en el [modelo 303](modelo-303-paso-a-pas
 
 ---
 
-**¿No quieres hacer estas cuentas a mano?** El [Kit del Autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01) (4 €, hoja de cálculo para Excel o LibreOffice) lleva tu libro de ingresos y gastos y te calcula solo el resultado orientativo del 130 y del 303 de cada trimestre. Lo que no cubre está explicado en la [página de la tienda](../README.md). Y si esta guía te ha servido y quieres que SALDO siga viva, puedes [aportar desde 1 €](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00).
+**¿No quieres hacer estas cuentas a mano?** El [Kit del Autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-guias-modelo-130-paso-a-paso) (4 €, hoja de cálculo para Excel o LibreOffice) lleva tu libro de ingresos y gastos y te calcula solo el resultado orientativo del 130 y del 303 de cada trimestre. Lo que no cubre está explicado en la [página de la tienda](../README.md). Y si esta guía te ha servido y quieres que SALDO siga viva, puedes [aportar desde 1 €](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00?client_reference_id=gh-guias-modelo-130-paso-a-paso).

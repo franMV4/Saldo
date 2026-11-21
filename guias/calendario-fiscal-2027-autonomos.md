@@ -41,4 +41,4 @@ La obligación de usar sistemas de facturación adaptados a Verifactu se aplazó
 
 Cómo se calcula el pago fraccionado del IRPF: **[modelo 130 paso a paso](modelo-130-paso-a-paso.md)**.
 
-Si quieres llevarlo en una hoja de cálculo que te dé el resultado orientativo de cada trimestre: [Kit del Autónomo 2027 por 4 €](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01). Y si solo quieres que SALDO siga viva: [aportar desde 1 €](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00).
+Si quieres llevarlo en una hoja de cálculo que te dé el resultado orientativo de cada trimestre: [Kit del Autónomo 2027 por 4 €](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-guias-calendario-fiscal-2027-autonomos). Y si solo quieres que SALDO siga viva: [aportar desde 1 €](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00?client_reference_id=gh-guias-calendario-fiscal-2027-autonomos).
