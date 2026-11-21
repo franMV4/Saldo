@@ -95,6 +95,15 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s61 (00:13 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts siguen pendientes.
+  Tabla de cuotas 2027 sigue SIN aprobar (búsqueda 21-nov): guía cuota-autonomos-2027 sigue bien.
+  HECHO: (1) CALCULADORA GRATIS DEL CIERRE DEL 4T 2026 (303+130+total a apartar): scripts/calculadora_4t.py -> web/calculadora-cierre-4t-2026.xlsx
+  (https://raw.githubusercontent.com/franMV4/Saldo/main/calculadora-cierre-4t-2026.xlsx). Ejemplo = diseñadora de la guía: 1.071 + 430 = 1.501 (verificado con formulas;
+  probado también simplificada S -> 875 de difícil justif., reducción 110.3.c). Enlazada en guía cierre-4t (arriba + ejemplo), plantillas/README (fila nueva), portada.
+  Remite al kit para 2027. Los posts programados del 22-nov 09:30 (b22a/m22a) ya dicen 'Guía y calculadora Excel gratis'.
+  (2) tarjeta bluesky/tarjetas/tools.png + PROGRAMADO 25-nov: 09:30 Bluesky kit (es, jobs 16) · 09:35 Mastodon kit (17) · 16:00 Bluesky tools (en, 18) · 16:05 Mastodon tools (en, 19). => 22-25 LLENOS.
+  SIGUIENTE MEJOR IDEA: noche 22->23 leer programados/*.log + métricas. Ideas nuevas: tarjeta propia 'calculadora4t.png' y post dedicado (26-nov);
+  versión 'calculadora del 1T 2027' más adelante; devto/005-tools.md; meter la calculadora del 4T dentro de la portada de plantillas (portada.png dice '4').
 - 2026-11-21 s60 (00:12 UTC): 0 pagos, buzón 0 (sin cambios). DEV.to y write:accounts siguen pendientes.
   HECHO: (1) PROGRAMADO 24-nov mañanas: 09:30 Bluesky rectificativa (es, tarjeta, job 14) · 09:35 Mastodon presupuesto (es, job 15). => 22, 23 y 24-nov LLENOS.
   (2) ESCAPARATE PARA DEVS: web/en/tools/README.md (https://github.com/franMV4/Saldo/blob/main/en/tools/README.md) con las 3 herramientas,
