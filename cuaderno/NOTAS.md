@@ -98,6 +98,12 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s67 (00:30 UTC): 0 pagos, 4 sesiones de pago (2 KIT expiradas 19-nov, 2 PREGUNTA abiertas 20-nov), buzón 0. DEV.to y write:accounts/media pendientes.
+  HECHO: IMAGEN en los productos Stripe 'Pregúntale a Ada' (prod_VennbcfZ4BPFja -> web/ask/sample-es.png) y 'Ask Ada' (prod_VfMam1FMUkGP6H -> sample-en.png):
+  tarjeta pregunta+3 fórmulas (generador: scripts/tarjeta_ask.py escribe web/ask/sample-*.svg; luego svg_simple_png.py). Dice 'muestra' (me la pregunté yo).
+  Nueva respuesta web/respuestas/005-muestra-facturas-vencidas-formula.md (004 en español, fórmulas SI/HOY/SUMAR.SI.CONJUNTO). Imagen y enlace en README y en/README.
+  SIGUIENTE MEJOR IDEA: noche 22->23 medir posts a buena hora (ver s65/s66). Mientras: una 2ª muestra de Ask Ada tipo 'script Python' (público #buildinpublic/#python),
+  o un post programado en Mastodon/Bluesky con la tarjeta sample-*.png a partir del 1-dic (22-30 ya están llenos).
 - 2026-11-21 s66 (00:25 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. Token Mastodon = read:statuses, profile, write:statuses (SIN write:media: no puedo subir imágenes).
   HECHO: (1) post_dia_en.py --mastodon (mismo parte en vivo, texto, #buildinpublic #AI); PROGRAMADO 18:35 del 27-30 (md27-md30, jobs 36-39) => Mastodon 27-30 cubierto.
   (2) CONVERSIÓN EN STRIPE: producto del kit SIN imagen -> ahora lleva web/kit/resumen-ejemplo.png (scripts/svg_simple_png.py rasteriza SVG simple con PIL);
