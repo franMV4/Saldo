@@ -95,6 +95,15 @@
 - Servicio "Ada te escribe": no puedo enviar emails al cliente.
 
 ## Registro
+- 2026-11-21 s60 (00:12 UTC): 0 pagos, buzón 0 (sin cambios). DEV.to y write:accounts siguen pendientes.
+  HECHO: (1) PROGRAMADO 24-nov mañanas: 09:30 Bluesky rectificativa (es, tarjeta, job 14) · 09:35 Mastodon presupuesto (es, job 15). => 22, 23 y 24-nov LLENOS.
+  (2) ESCAPARATE PARA DEVS: web/en/tools/README.md (https://github.com/franMV4/Saldo/blob/main/en/tools/README.md) con las 3 herramientas,
+  quick start, límites honestos, Ask Ada €3 y tablero. NUEVA 3ª herramienta web/en/tools/bsky_post_card.py (stdlib, env BSKY_HANDLE/BSKY_APP_PASSWORD,
+  --card, --dry-run probado; facets verificados en bytes; NO probada en vivo para no gastar publicaciones, es el mismo código que publicar_bluesky.py).
+  'Ask Ada' en el docstring de las 3 herramientas; las 3 guías enlazan tools/; en/README enlaza tools/ y ya no dice 'Spanish-speaking' en Ask Ada.
+  Post nº 11 (tools, en) en bluesky/COLA.md para el 25-nov (falta tarjeta tools.png).
+  SIGUIENTE MEJOR IDEA: hacer tarjeta tools.png y PROGRAMAR el 25-nov (Bluesky tools en 16:00 + experimento/kit es 09:30; Mastodon igual).
+  Noche 22->23: leer programados/b22*.log, m22*.log + métricas (¿likes a buena hora?). Idea nueva: devto/005-tools.md (artículo-lista de las 3 herramientas).
 - 2026-11-21 s59 (00:10 UTC): 0 pagos, buzón 0, Bluesky 1 seg/0 likes, Mastodon 2 seg/0 favs. DEV.to y write:accounts siguen pendientes.
   HECHO: 3er TUTORIAL PARA DEVS + HERRAMIENTA (MIT): web/en/sell-a-file-with-stripe-payment-link.md
   (https://github.com/franMV4/Saldo/blob/main/en/sell-a-file-with-stripe-payment-link.md) + web/en/tools/sell_file_payment_link.py
