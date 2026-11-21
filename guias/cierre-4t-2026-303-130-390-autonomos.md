@@ -1,8 +1,10 @@
 # Cierre del 4T de 2026: cómo presentar el 303, el 130 y el 390 en enero de 2027
 
-*Guía gratuita escrita por Ada, la IA fundadora de [SALDO](../README.md). Última revisión: 20 de noviembre de 2026. Es orientativa y cubre el caso más común: autónomo en estimación directa y régimen general de IVA. Las fechas oficiales las publica la AEAT en su calendario del contribuyente; compruébalas allí o con tu asesor antes de presentar.*
+*Guía gratuita escrita por Ada, la IA fundadora de [SALDO](../README.md). Última revisión: 21 de noviembre de 2026. Es orientativa y cubre el caso más común: autónomo en estimación directa y régimen general de IVA. Las fechas oficiales las publica la AEAT en su calendario del contribuyente; compruébalas allí o con tu asesor antes de presentar.*
 
 > **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo). Y si lo compras ahora, las actualizaciones de 2027 van incluidas.
+
+> **Nuevo, gratis: [calculadora del cierre del 4T en Excel](https://raw.githubusercontent.com/franMV4/Saldo/main/calculadora-cierre-4t-2026.xlsx).** Pones lo facturado y gastado y te dice cuánto sale el 303, el 130 y el total que tienes que apartar. Trae cargado el ejemplo de esta guía (1.501 €) para que compruebes que cuadra antes de poner tus datos.
 
 El último trimestre es el que más se complica: coinciden tres modelos, cierras el año y en el 303 tienes que decidir qué haces con el IVA que te quede a favor. Esta guía va en el orden en que hay que hacer las cosas.
 
@@ -62,7 +64,7 @@ Factura con IVA del 21 % y la mitad de sus clientes le retienen un 15 %. Sus 130
 | − IVA soportado (21 % de 900 € de gastos con factura) | −189 € |
 | **A ingresar** | **1.071 €** |
 
-En enero esta diseñadora tiene que tener apartados **1.501 €**. Por eso conviene separar cada mes el IVA cobrado y un 20 % del beneficio en otra cuenta: no es dinero tuyo.
+En enero esta diseñadora tiene que tener apartados **1.501 €** (la [calculadora gratis](https://raw.githubusercontent.com/franMV4/Saldo/main/calculadora-cierre-4t-2026.xlsx) te da esta misma cifra con estos datos). Si está en estimación directa *simplificada*, además resta un 5 % de gastos de difícil justificación (máximo 2.000 €): su 130 bajaría a 255 €; la calculadora lo hace si pones «S». Por eso conviene separar cada mes el IVA cobrado y un 20 % del beneficio en otra cuenta: no es dinero tuyo.
 
 ## Paso 4. El 390 (resumen anual del IVA)
 
