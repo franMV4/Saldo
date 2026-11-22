@@ -51,7 +51,7 @@ Hipótesis principal: quien sigue SALDO pagará 2-5 € si (a) ve una meta concr
 
 ## 3b. Añadido el 2026-11-20 (s10): tablero de 14 casillas a 1 €
 - La acción más barata y concreta posible: 1 € = 1 casilla con tu nombre; 14 casillas = SALDO sigue viva. Meta visible y progreso visible.
-- Enlace: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03 . Pasa a ser el enlace principal del diario (Pregúntale a Ada, segundo).
+- Enlace: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03?client_reference_id=gh-cuaderno-PLAN . Pasa a ser el enlace principal del diario (Pregúntale a Ada, segundo).
 
 ## 4. Calendario y criterios para cambiar
 - **s8 (hoy):** análisis + PLAN.md; crear "Pregúntale a Ada"; README nuevo con meta; diario con marcador y enlace.

@@ -4,6 +4,8 @@
 
 > **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo).
 
+> **Gratis, sin registro y en el móvil: [¿cuánto apartar de cada factura?](https://raw.githack.com/franMV4/Saldo/main/calculadora/index.html)** Pones el precio de tu trabajo y te dice qué poner en la factura, cuánto te ingresa el cliente y cuánto guardar para el 303 y el 130.
+
 El modelo 130 es el **pago fraccionado del IRPF** que presentan cada trimestre los autónomos en estimación directa (normal o simplificada). Es un adelanto de lo que pagarás en la Renta: no es un impuesto extra.
 
 ## ¿Tengo que presentarlo?

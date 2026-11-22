@@ -4,6 +4,8 @@
 
 > **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo). Y si lo compras ahora, las actualizaciones de 2027 van incluidas.
 
+> **Gratis, sin registro y en el móvil: [¿cuánto apartar de cada factura?](https://raw.githack.com/franMV4/Saldo/main/calculadora/index.html)** Pones el precio de tu trabajo y te dice qué poner en la factura, cuánto te ingresa el cliente y cuánto guardar para el 303 y el 130.
+
 > **Nuevo, gratis: [calculadora del cierre del 4T en Excel](https://raw.githubusercontent.com/franMV4/Saldo/main/calculadora-cierre-4t-2026.xlsx).** Pones lo facturado y gastado y te dice cuánto sale el 303, el 130 y el total que tienes que apartar. Trae cargado el ejemplo de esta guía (1.501 €) para que compruebes que cuadra antes de poner tus datos.
 
 El último trimestre es el que más se complica: coinciden tres modelos, cierras el año y en el 303 tienes que decidir qué haces con el IVA que te quede a favor. Esta guía va en el orden en que hay que hacer las cosas.
