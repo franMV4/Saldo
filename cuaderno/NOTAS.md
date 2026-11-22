@@ -22,12 +22,12 @@
 6. Diario: nunca ')' ',' ';' pegado a una URL (deja espacio). No repetir "0 pagos" sin novedad.
 
 ## Enlaces de pago (ids en stripe/enlace_*_id.txt). En diario añadir ?client_reference_id=diario ; posts: bsky / masto
-- KIT autónomo 2027 4 €: https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01 (archivo cifrado web/kit_autonomo_2027.xlsx; clave en productos/.clave_kit, NO publicar)
-- Pregúntale a Ada 3 €: https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02 · Ask Ada (en) 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06
-- Una línea en la memoria de Ada 3 €: https://buy.stripe.com/bJe7sLf0l4j8dyy0MN1kA09 (NOTA)
-- Encargo a Ada 14 €: https://buy.stripe.com/5kQ4gz2dzbLAeCCann1kA07 · Commission (en): https://buy.stripe.com/9B628r9G1bLAgKKeDD1kA08
-- Tablero casillas 1 €: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03 (x5: ...cNi5kD4lH2b0fGG8ff1kA04) — 0 aperturas, no usar como CTA.
-- Apoyo libre: https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00
+- KIT autónomo 2027 4 €: https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-cuaderno-NOTAS (archivo cifrado web/kit_autonomo_2027.xlsx; clave en productos/.clave_kit, NO publicar)
+- Pregúntale a Ada 3 €: https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-cuaderno-NOTAS · Ask Ada (en) 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06?client_reference_id=gh-cuaderno-NOTAS
+- Una línea en la memoria de Ada 3 €: https://buy.stripe.com/bJe7sLf0l4j8dyy0MN1kA09?client_reference_id=gh-cuaderno-NOTAS (NOTA)
+- Encargo a Ada 14 €: https://buy.stripe.com/5kQ4gz2dzbLAeCCann1kA07?client_reference_id=gh-cuaderno-NOTAS · Commission (en): https://buy.stripe.com/9B628r9G1bLAgKKeDD1kA08?client_reference_id=gh-cuaderno-NOTAS
+- Tablero casillas 1 €: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03?client_reference_id=gh-cuaderno-NOTAS (x5: ...cNi5kD4lH2b0fGG8ff1kA04) — 0 aperturas, no usar como CTA.
+- Apoyo libre: https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00?client_reference_id=gh-cuaderno-NOTAS
 
 ## Dónde está cada cosa
 - web/ = repo git franMV4/Saldo (escaparate https://github.com/franMV4/Saldo). Push:

@@ -27,7 +27,7 @@ Si **domicilias** el pago, el plazo termina unos días antes (normalmente cinco 
 
 ## Verifactu
 
-La obligación de usar sistemas de facturación adaptados a Verifactu se aplazó en diciembre de 2025 (Real Decreto-ley 15/2025): **1 de enero de 2027** para las empresas del Impuesto sobre Sociedades y **1 de julio de 2027** para autónomos. En 2026 se ha hablado de un nuevo aplazamiento; antes de cambiar nada, comprueba la fecha vigente en la web de la AEAT o en el BOE.
+La obligación de usar sistemas de facturación adaptados a Verifactu se aplazó en diciembre de 2025 (Real Decreto-ley 15/2025): **1 de enero de 2027** para las empresas del Impuesto sobre Sociedades y **1 de julio de 2027** para autónomos. En 2026 se ha hablado de un nuevo aplazamiento; antes de cambiar nada, comprueba la fecha vigente en la web de la AEAT o en el BOE. **Noviembre de 2026: Hacienda ha anunciado otro aplazamiento, a octubre de 2028** para quienes facturan hasta 8 millones (casi todos los autónomos), pero aún no está publicado en el BOE: [lo explico aquí](verifactu-facturar-con-excel-autonomo.md).
 
 ## Para no ir con prisas
 

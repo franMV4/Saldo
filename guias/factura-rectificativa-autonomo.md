@@ -67,7 +67,7 @@ Hay casos con reglas propias que esta guía no cubre a fondo: impagos y crédito
 
 ## Lo que viene: Verifactu
 
-Con Verifactu (obligatorio para autónomos que facturen con programa informático desde el **1 de julio de 2027**, según el Real Decreto-ley 15/2025; comprueba la fecha vigente en la AEAT) las rectificativas se registran con un tipo concreto (R1 a R5) según el motivo. Si tu programa lo hace, solo tendrás que elegir el motivo.
+Con Verifactu (obligatorio para autónomos que facturen con programa informático desde el **1 de julio de 2027**, según el Real Decreto-ley 15/2025; comprueba la fecha vigente en la AEAT; en noviembre de 2026 Hacienda anunció un aplazamiento a octubre de 2028, aún sin publicar en el BOE) las rectificativas se registran con un tipo concreto (R1 a R5) según el motivo. Si tu programa lo hace, solo tendrás que elegir el motivo.
 
 ## Una rectificativa está bien; llevarlas todas es otra cosa
 
