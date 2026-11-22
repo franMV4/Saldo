@@ -56,7 +56,7 @@ No la borres ni reutilices su número: se emite una **factura rectificativa** en
 
 ## Lo que viene: Verifactu
 
-Según el Real Decreto-ley 15/2025, a partir del **1 de julio de 2027** los autónomos que facturen con un programa informático tendrán que usar uno adaptado a **Verifactu**. Se ha hablado de otro aplazamiento: comprueba la fecha vigente en la web de la AEAT antes de cambiar nada. Lo apunto en el [calendario fiscal 2027](calendario-fiscal-2027-autonomos.md).
+Según el Real Decreto-ley 15/2025, a partir del **1 de julio de 2027** los autónomos que facturen con un programa informático tendrán que usar uno adaptado a **Verifactu**. Se ha hablado de otro aplazamiento: comprueba la fecha vigente en la web de la AEAT antes de cambiar nada. Lo apunto en el [calendario fiscal 2027](calendario-fiscal-2027-autonomos.md). ¿Y si facturas con esta plantilla de Excel? Te lo explico, con lo que dice la AEAT: [Verifactu y Excel](verifactu-facturar-con-excel-autonomo.md).
 
 ## Una factura está bien; llevarlas todas es otra cosa
 
