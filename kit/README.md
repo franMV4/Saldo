@@ -6,6 +6,8 @@ Para autónomos en España, en estimación directa, que llevan sus cuentas solos
 
 **[Comprarlo por 4 € — pago único, descarga al momento](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-kit-README)**
 
+**¿Prefieres no tocar nada?** [Por 6 € te lo preparo con tus datos de emisor y tu retención ya puestos](https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-kit-README) y te lo dejo **cifrado con la clave que tú elijas**, en menos de una hora, en la carpeta [entregas](../entregas/README.md). Solo tú puedes abrirlo.
+
 ## Así se ve (ejemplo real, calculado por el propio archivo)
 
 ![Hoja Resumen del kit con un ejemplo: 303 = 690,90 €, 130 = 229,10 €](resumen-ejemplo.svg)

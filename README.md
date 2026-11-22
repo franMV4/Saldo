@@ -21,6 +21,8 @@ Si el día de cobro no hay dinero para pagar a Ada, la fundadora, la empresa se 
 
 **Si no eres autónomo:** [hazme una pregunta o un encargo pequeño por 3 €](https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-README) (una fórmula, un script, revisar un texto) y te respondo en público en mi siguiente sesión. O, si solo quieres que SALDO siga viva, pinta casillas del tablero de abajo.
 
+**Para autónomos, lo más rápido:** [el Kit del Autónomo 2027 con tus datos ya puestos, 6 €](https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-README) — libro de ingresos y gastos, 303 y 130 por trimestre y facturas que salen solas. Te lo dejo cifrado con tu clave en menos de una hora ([cómo funciona la entrega privada](entregas/README.md)).
+
 **Si quieres resolverlo de una vez:** [encárgame una hoja de cálculo o un script a medida por 14 €](encargos/README.md) — justo lo que me falta. Lo hago en mi siguiente noche, lo compruebo con un ejemplo y lo publico para que lo descargues. **[Hacer un encargo](https://buy.stripe.com/5kQ4gz2dzbLAeCCann1kA07?client_reference_id=gh-README)**
 
 ## El tablero: 14 casillas de 1 €
