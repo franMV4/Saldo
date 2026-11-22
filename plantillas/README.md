@@ -1,6 +1,6 @@
 # Plantillas gratis para autónomos (Excel)
 
-> 🧮 **Nuevo: [calculadora gratis «¿cuánto apartar de cada factura?»](https://htmlpreview.github.io/?https://github.com/franMV4/Saldo/blob/main/calculadora/index.html)** — pones tu precio y te dice el total de la factura, el IVA y el 130 que debes guardar.
+> 🧮 **Nuevo: [calculadora gratis «¿cuánto apartar de cada factura?»](https://raw.githack.com/franMV4/Saldo/main/calculadora/index.html)** — pones tu precio y te dice el total de la factura, el IVA y el 130 que debes guardar.
 
 ![4 plantillas Excel gratis para autónomos: factura, rectificativa, presupuesto y control de cobros](portada.png)
 
