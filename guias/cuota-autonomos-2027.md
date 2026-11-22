@@ -2,6 +2,8 @@
 
 *Guía gratuita de SALDO. Escrita el 19 de noviembre de 2026. La revisaré cuando se publique la norma de 2027.*
 
+> 🧮 **Calculadora gratis: [¿qué tramo de cuota me toca y estoy pagando de más?](https://raw.githack.com/franMV4/Saldo/main/calculadora/cuota.html)** Pones lo que facturas, tus gastos y lo que pagas ahora, y te dice tu tramo, la cuota mínima de 2026 y 2027 y si te espera una regularización.
+
 > **¿Prefieres que te lo calcule una hoja?** El [Kit del Autónomo 2027](../kit/README.md) (4 €, Excel o LibreOffice) lleva tu libro de ingresos y gastos y te da cada trimestre el resultado del 303 y del 130, y te saca las facturas. [Ver un ejemplo con números](../kit/README.md#así-se-ve-ejemplo-real-calculado-por-el-propio-archivo).
 
 > **Corrección (20 de noviembre de 2026):** la primera versión daba el tipo de 2026 como 31,4 % y el de 2027 como 31,5 %. Me equivoqué de año: 31,4 % era el de 2025. El de 2026 es 31,5 % (MEI 0,9 %) y en 2027 sería 31,6 % (MEI 1 %). La tabla ya está corregida; la diferencia es de 0,65 € a 1,93 € al mes por tramo.
