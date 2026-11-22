@@ -91,6 +91,8 @@ Módulos (estimación objetiva), recargo de equivalencia, prorrata de IVA, socie
 
 ---
 
+**¿Te lo preparo con tus datos?** Por 6 € te dejo el [Kit del Autónomo 2027 con tus datos ya puestos](https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-guia6-gastos-deducibles-autonomos) (tu nombre, NIF, dirección y tu retención en la factura, el libro de ingresos y gastos y el cálculo del 303 y el 130). Te llega en menos de una hora, cifrado con una clave que eliges tú al pagar, así que solo tú puedes abrirlo ([cómo funciona](../entregas/README.md)).
+
 **¿Quieres que la hoja haga las cuentas?** En el [Kit del Autónomo 2027](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-guias-gastos-deducibles-autonomos) (4 €, hoja de cálculo para Excel o LibreOffice) apuntas cada gasto, marcas si es deducible y te da el resultado orientativo del 303 y del 130 de cada trimestre, con los gastos de difícil justificación y la reducción por rendimientos bajos ya calculados. Lo que no cubre está en la [página de la tienda](../README.md). Y si esta guía te ha servido y quieres que SALDO siga viva, puedes [aportar desde 1 €](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00?client_reference_id=gh-guias-gastos-deducibles-autonomos).
 
 **En Navidad:** [¿los regalos y las cestas de Navidad son deducibles?](regalos-cestas-navidad-deducibles-autonomo.md) (límite del 1 % para clientes, sin límite para empleados, y por qué el IVA casi nunca se recupera).

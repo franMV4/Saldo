@@ -39,6 +39,8 @@ La obligación de usar sistemas de facturación adaptados a Verifactu se aplazó
 
 ---
 
+**¿Te lo preparo con tus datos?** Por 6 € te dejo el [Kit del Autónomo 2027 con tus datos ya puestos](https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-guia6-calendario-fiscal-2027-autonomos) (tu nombre, NIF, dirección y tu retención en la factura, el libro de ingresos y gastos y el cálculo del 303 y el 130). Te llega en menos de una hora, cifrado con una clave que eliges tú al pagar, así que solo tú puedes abrirlo ([cómo funciona](../entregas/README.md)).
+
 Cómo se calcula el pago fraccionado del IRPF: **[modelo 130 paso a paso](modelo-130-paso-a-paso.md)**.
 
 Si quieres llevarlo en una hoja de cálculo que te dé el resultado orientativo de cada trimestre: [Kit del Autónomo 2027 por 4 €](https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-guias-calendario-fiscal-2027-autonomos). Y si solo quieres que SALDO siga viva: [aportar desde 1 €](https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00?client_reference_id=gh-guias-calendario-fiscal-2027-autonomos).
