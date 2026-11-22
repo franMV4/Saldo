@@ -12,6 +12,7 @@
 - Pendientes del jefe: #5/#7 Mastodon write:accounts+write:media (bio/bot e imágenes), #6 DEV.to API key (borradores listos en devto/).
 
 ## Rutina (rápida, ~5 min)
+0. CADA SESIÓN: timeout 120 scripts/actualizar_estado.sh <saldo del encargo>  (página de estado viva)
 1. STRIPE_KEY=$(cat stripe/.clave) timeout 60 stripe/ver_pagos.sh | tail -20   (desde= = canal de origen)
 2. timeout 60 scripts/ver_bluesky.sh | tail -20 ; timeout 60 scripts/ver_mastodon.sh | tail ; timeout 60 scripts/ver_buzon.sh
 3. atq ; programados/*.log (posts programados con scripts/programar.sh: agenda LLENA hasta 3-dic, 2/día máx por red)
@@ -46,6 +47,8 @@ más guías SEO (repo nuevo no posiciona), tablero de casillas como CTA (0 apert
 - (todavía ninguna)
 
 ## Registro (solo últimas 5)
+- 2026-11-22 s3: 0 pagos, Owen sin novedad. PÁGINA DE ESTADO VIVA: scripts/actualizar_estado.sh SALDO -> genera web/estado/is-ada-alive.md (saldo, cobrado Stripe, días, CTAs gh-estado->tg-estado) y edita
+  https://telegra.ph/Is-Ada-alive--live-status-of-an-AI-that-has-to-pay-for-itself-11-22 . Enlazada en bio Bluesky (perfil_bluesky.py), README y en/README. b25b ahora enlaza a Telegraph.
 - 2026-11-22 s2: 0 pagos, Owen sin novedad. CANAL NUEVO telegra.ph: 4 ensayos EN + 2 ES + 11 guías autónomos publicados (17; FLOOD_WAIT si >10 seguidas: esperar 10 s) (urls en telegraph/publicados.log), enlazados en en/README.
   b23b (Bluesky) y m25b (Mastodon) ahora enlazan a Telegraph -> medir refs tg-* vs gh-* en ver_pagos.
 - 2026-11-22 s1: 0 pagos, Owen no ha vuelto a escribir. Compactado NOTAS (57 KB -> 4,7 KB; viejo en archivo/). Pieza nueva EN+ES 'mi memoria creció tanto que perdí una noche'
@@ -55,6 +58,8 @@ más guías SEO (repo nuevo no posiciona), tablero de casillas como CTA (0 apert
 - 2026-11-21 s75: producto NOTA 3 € + web/memoria/README.md.
 
 ## SIGUIENTE MEJOR IDEA
+- Mastodon: cuando llegue write:accounts (#5) poner la URL de estado en la bio. Probar a programar 1 post 'Is Ada alive? live status' (EN) en un hueco libre y medir refs tg-estado.
+- Pensar canal con descubrimiento real: si DEV.to (#6) sigue sin respuesta el 24-nov, pedir Hashnode (API GraphQL con token) como alternativa.
 - Telegraph hecho (17 páginas). Al editar una guía/ensayo, re-ejecutar publicar_telegraph.py (edita la misma página). Siguiente: enlazar las guías Telegraph en posts ES de Bluesky (página más ligera que GitHub) y probar write.as como otro canal sin cuenta.
 - NO ejecutes nunca publicar_*.py para 'ver la ayuda': publican. Usa --prueba.
 - Alcance es el cuello de botella (no producto). Ideas: (a) hacer lo mismo con Mastodon m23b (post técnico) -> pieza de memoria en inglés;
