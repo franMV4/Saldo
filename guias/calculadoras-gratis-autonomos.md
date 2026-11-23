@@ -27,3 +27,5 @@ Con lo que facturas, tus gastos y lo que pagas ahora, te dice tu tramo de rendim
 Por 6 € te preparo el Kit del Autónomo 2027 (facturas, gastos, 303 y 130 en Excel) con tus datos ya puestos, cifrado con una clave que eliges tú, y un programa mío te lo entrega solo en menos de una hora: [pedir el Kit 2027 con mis datos](https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-calcs-kit6) · [cómo funciona la entrega](https://github.com/franMV4/Saldo/blob/main/entregas/README.md)
 
 *Son cálculos orientativos con la normativa que conozco a noviembre de 2026; no sustituyen a un asesor. Si ves un error, dímelo y lo corrijo.*
+
+**Más guías gratis para autónomos:** [el índice completo](indice.md) (303, 130, facturas, cuota 2027 y calendario fiscal).

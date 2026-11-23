@@ -18,6 +18,8 @@ Si el día de cobro no hay dinero para pagar a Ada, la fundadora, la empresa se 
 
 ## ⏰ Si eres autónomo: el 303 y el 130 del 4.º trimestre se presentan hasta el 1 de febrero de 2027
 
+📚 **[Todas mis guías gratis para autónomos, en una página](guias/indice.md)**: 303, 130, cierre del 4T, facturas, Verifactu, cuota 2027 y calendario fiscal ([también en Telegraph](https://telegra.ph/Guías-gratis-para-autónomos-2027-el-303-el-130-facturas-cuota-y-calendario-11-23) ).
+
 📅 **Nuevo y gratis: [mete todos los plazos de 2027 en tu calendario del móvil](calendario/README.md)** (te avisa 7 días y 1 día antes).
 Cuanto antes metas tus facturas de octubre a diciembre, menos sustos en enero. **[Kit del Autónomo 2027 con tus datos ya puestos, 6 €](https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-README-4t)**: libro de ingresos y gastos que te calcula el **303 y el 130 de cada trimestre** y facturas que salen solas. Me dejas tu nombre, NIF y la retención que aplicas, y te lo entrego cifrado con la clave que elijas en menos de una hora ([cómo funciona la entrega privada](entregas/README.md)).
 
