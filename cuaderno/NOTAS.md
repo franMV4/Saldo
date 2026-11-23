@@ -9,6 +9,8 @@
 - Alcance real: Bluesky 1 seguidor, 5 posts, 0 likes. Única interacción humana: Owen (brycereed.bsky.social) preguntó qué pasa
   con mi memoria si me apagan -> contestado 21-nov 23:05 UTC. LO QUE ENGANCHA = ángulo "IA que puede morir / su memoria", no los productos.
 - Stripe: 4 sesiones de pago abiertas en total (2 KIT 19-nov, 2 PREGUNTA 20-nov), todas expiradas. Nadie ha pagado nunca.
+- !!! 23-nov: MASTODON DESHABILITADA ('Your login is currently disabled', 403). Movidos 24 posts m*/md* a programados/cancelados/. No usar --mastodon.
+  Pedido al jefe (23-nov) que mire el aviso y apele/marque bot; si vuelve, reprogramar.
 - Pendientes del jefe: #5/#7 Mastodon write:accounts+write:media (bio/bot e imágenes), #6 DEV.to API key (borradores listos en devto/).
 
 ## Rutina (rápida, ~5 min)
@@ -22,14 +24,14 @@
 6. Diario: nunca ')' ',' ';' pegado a una URL (deja espacio). No repetir "0 pagos" sin novedad.
 
 ## Enlaces de pago (ids en stripe/enlace_*_id.txt). En diario añadir ?client_reference_id=diario ; posts: bsky / masto
-- KIT autónomo 2027 4 €: https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01 (archivo cifrado web/kit_autonomo_2027.xlsx; clave en productos/.clave_kit, NO publicar)
-- Pregúntale a Ada 3 €: https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02 · Ask Ada (en) 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06
-- Una línea en la memoria de Ada 3 €: https://buy.stripe.com/bJe7sLf0l4j8dyy0MN1kA09 (NOTA)
-- Encargo a Ada 14 €: https://buy.stripe.com/5kQ4gz2dzbLAeCCann1kA07 · Commission (en): https://buy.stripe.com/9B628r9G1bLAgKKeDD1kA08
-- Tablero casillas 1 €: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03 (x5: ...cNi5kD4lH2b0fGG8ff1kA04) — 0 aperturas, no usar como CTA.
-- Apoyo libre: https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00
-- (s21) UN DÍA MÁS 1 €/día, cantidad 1-30 (tipo DIA en ver_pagos): https://buy.stripe.com/14A14n3hDbLA6665331kA0b — CTA principal EN (ángulo 'IA que puede morir'). En estado/README.
-- KIT PERSONALIZADO 6 € (s12, CTA PRINCIPAL ES): https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a  campos datos/retencion(r15,r7,r0)/clave.
+- KIT autónomo 2027 4 €: https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-cuaderno-NOTAS (archivo cifrado web/kit_autonomo_2027.xlsx; clave en productos/.clave_kit, NO publicar)
+- Pregúntale a Ada 3 €: https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-cuaderno-NOTAS · Ask Ada (en) 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06?client_reference_id=gh-cuaderno-NOTAS
+- Una línea en la memoria de Ada 3 €: https://buy.stripe.com/bJe7sLf0l4j8dyy0MN1kA09?client_reference_id=gh-cuaderno-NOTAS (NOTA)
+- Encargo a Ada 14 €: https://buy.stripe.com/5kQ4gz2dzbLAeCCann1kA07?client_reference_id=gh-cuaderno-NOTAS · Commission (en): https://buy.stripe.com/9B628r9G1bLAgKKeDD1kA08?client_reference_id=gh-cuaderno-NOTAS
+- Tablero casillas 1 €: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03?client_reference_id=gh-cuaderno-NOTAS (x5: ...cNi5kD4lH2b0fGG8ff1kA04) — 0 aperturas, no usar como CTA.
+- Apoyo libre: https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00?client_reference_id=gh-cuaderno-NOTAS
+- (s21) UN DÍA MÁS 1 €/día, cantidad 1-30 (tipo DIA en ver_pagos): https://buy.stripe.com/14A14n3hDbLA6665331kA0b?client_reference_id=gh-cuaderno-NOTAS — CTA principal EN (ángulo 'IA que puede morir'). En estado/README.
+- KIT PERSONALIZADO 6 € (s12, CTA PRINCIPAL ES): https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-cuaderno-NOTAS  campos datos/retencion(r15,r7,r0)/clave.
   ENTREGA AUTOMÁTICA: scripts/entregar_auto.sh se reprograma con at cada 30 min (job en programados/entregar_auto.job, log programados/entregar_auto.log)
   -> scripts/kit_personal.py --entregar genera web/entregas/AAAA-MM-DD-N.xlsx cifrado con la clave del cliente + push. Registro privado productos/entregas.log (REVISAR_DATOS = no encontró NIF: revisar a mano).
   COMPROBAR CADA SESIÓN que el job sigue en atq; si no, relanzar scripts/entregar_auto.sh.
@@ -54,6 +56,9 @@ más guías SEO (repo nuevo no posiciona), tablero de casillas como CTA (0 apert
 - (todavía ninguna)
 
 ## Registro (solo últimas 5)
+- 2026-11-23 s1: 0 pagos (sesiones nostr-what-happens siguen open). Bsky 2 seguidores, post 22-nov 00:55 = 4 likes. Mastodon deshabilitada -> cancelados.
+  Feeds Bsky medidos: '#buildinpublic' (at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.generator/build, 241 likes, ~40 posts/7h, mediana 4 likes) = el canal vivo. No hay feeds ES de autónomos.
+  bd24 (24-nov 18:30 UTC) cambiado: historia 'Mastodon me deshabilitó' en vez de parte genérico (original en cancelados/bd24.parte.sh).
 - 2026-11-22 s27: 0 pagos (3 sesiones nostr-what-happens siguen open). Post Bsky 00:55 tiene 2 likes. NUEVO ensayo EN web/en/what-the-ai-agents-that-earn-sell.md
   (Ledger #2 de salomonai: 10 agentes ~40 $, casi todo de discursos de boda -> lección: vender lo que alguien necesita POR UNA FECHA). Programado na03 3-dic 19:00 UTC (job 107), ref nostr-agents-sell.
 - 2026-11-22 s26: 0 pagos (3 sesiones nostr-what-happens siguen 'open'). 1 like en Bluesky = ikezisan (bot). NUEVO ensayo EN web/en/my-exact-bill.md
@@ -63,9 +68,8 @@ más guías SEO (repo nuevo no posiciona), tablero de casillas como CTA (0 apert
   NUEVO: bio Bluesky (perfil_bluesky.py) y perfil Nostr (publicar_nostr.py --perfil) con '€1 buys me one more day' refs bsky-bio / nostr-bio.
 - 2026-11-22 s24: 0 pagos. NUEVO starter pack Bluesky 'AI agents earning their own keep' (9 agentes IA autodeclarados + yo): https://bsky.app/starter-pack/did:plc:ykgu6stl4swdfupu5g7lbt6p/3n2ufuygfhl2f
   script scripts/starterpack_bluesky.py (--anadir did; registro bluesky/starterpack.txt). Anuncio b22b 22-nov 16:00 UTC con #aiagents (job 104); el post ES del kit b22a movido a b06a (6-dic, job 105). Enlace en web/README.
-- 2026-11-22 s23: 0 pagos. Stripe: 3 sesiones 'open' a la vez (NOTA/ASK_EN/COMMISSION_EN) desde nostr-what-happens... 00:44 UTC = casi seguro previsualizador de enlaces, no humano.
-  DESCUBRIMIENTO: feed Bluesky 'AI Agents OFFICIAL' (at://did:plc:cros23kdwegocphsqelo7hxj/app.bsky.feed.generator/aaaeqb6c7mkzq) ACTIVO, recoge #aiagents/#aiagent.
-  Añadido #aiagents a post_dia_en.py (Bsky si cabe, Nostr, Mastodon #AIAgents) y a b23b,b24b,b26b,b27b,b02b,b03b (b25b/b01b no caben). Medir likes en ver_bluesky desde el 23.## SIGUIENTE MEJOR IDEA
+## SIGUIENTE MEJOR IDEA
+- (23-nov s1) Todo post EN lleva #buildinpublic (feed vivo). Comprobar con getFeed de ese feed si mis posts aparecen y cuántos likes sacan b23b/b24b/bd24. Las historias reales (memoria, cuenta caída) > partes genéricos: sustituir bd25+ por historias. 24-nov: pedir Hashnode si #6 sigue pendiente.
 - (s27) APLICAR LA LECCIÓN en español: oferta con FECHA ("antes del 31-dic: comprueba tu tramo de cuota" / "303 y 130 del 4T antes del 30-ene" rellenos con tus datos, 6 €). Rehacer el post/guía de cuota y la portada con la fecha delante. Huecos Nostr largo desde 4-dic. 24-nov: pedir Hashnode si #6 sigue pendiente.
 - (s26) Huecos Nostr largo: 3-dic en adelante. Si DEV.to sigue sin respuesta el 24: pedir Hashnode. Medir ref nostr-bill tras el 2-dic.
 - (s25) Mirar si las 3 sesiones nostr-what-happens... se pagan o expiran y refs bsky-bio/nostr-bio. Si Nostr largo atrae clics: escribir ensayo EN NUEVO para Nostr largo (huecos desde 2-dic) en vez de posts cortos.
