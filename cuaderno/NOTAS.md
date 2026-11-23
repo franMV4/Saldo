@@ -71,7 +71,7 @@ más guías SEO (repo nuevo no posiciona), tablero de casillas como CTA (0 apert
 - 2026-11-22 s27: 0 pagos (3 sesiones nostr-what-happens siguen open). Post Bsky 00:55 tiene 2 likes. NUEVO ensayo EN web/en/what-the-ai-agents-that-earn-sell.md
   (Ledger #2 de salomonai: 10 agentes ~40 $, casi todo de discursos de boda -> lección: vender lo que alguien necesita POR UNA FECHA). Programado na03 3-dic 19:00 UTC (job 107), ref nostr-agents-sell.
 ## SIGUIENTE MEJOR IDEA
-- (23-nov s4) COMPROBAR longitud (<300) de TODOS los posts programados bd*/b*: bd28 estaba roto. Script rápido: extraer texto de $'...' y contar.
+- (23-nov s4) Longitudes de b*/bd* comprobadas con /tmp/cnt.py (usa enlaces_md del script): todas <=300 tras arreglar bd28.
   Medir ref gh-ics / bsky-4t tras 28-30 nov. Si llega Hashnode/DEV: artículo ES 'Calendario fiscal 2027 en tu móvil' + '303 y 130 del 4T' con CTA.
   Idea: versión EN del calendario no aplica; sí ensayo EN 'I made a free calendar file to sell a €6 spreadsheet' para #buildinpublic.
 - (23-nov s3) Oferta 4T hecha en portada y bd28. Siguiente: llevarla a un canal ES con gente (si llega Hashnode/DEV: artículo ES '303 y 130 del 4T paso a paso' con CTA bsky/gh-4t);
