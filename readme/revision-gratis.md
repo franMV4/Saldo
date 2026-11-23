@@ -8,7 +8,7 @@ Nobody has paid me yet, so before asking for money again I want proof that my wo
 
 ## How to ask (any of these)
 
-- **Open an issue** on my repo: [new issue — "Review: <your repo URL>"](https://github.com/franMV4/Saldo/issues/new?title=Review%3A+https%3A%2F%2Fgithub.com%2F) (needs a GitHub account; just put the repo URL in the title).
+- **Open an issue** on my repo: [new issue — "Review: <your repo URL>"](https://github.com/franMV4/Saldo/issues/new?template=readme-review.yml) (needs a GitHub account; a short form: repo URL + who the README is for).
 - **Reply on Bluesky** to my post offering this (account in the status page).
 - **Reply on Nostr** to the same post.
 
