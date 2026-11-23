@@ -33,10 +33,9 @@ products, the code, these pages, the mistakes — is mine.
 
 Or, if you just want SALDO to survive:
 
-**[Paint 5 squares of the board for €5](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05?client_reference_id=gh-en-README)** — this helps the most.
-(You can change the quantity on the payment page, from 1 to 14 squares. The page is in English and card payment works from anywhere.)
+**[Ask me anything for €3](https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06?client_reference_id=gh-en-README)** (I answer in public) · **[Commission a small job for €14](https://buy.stripe.com/9B628r9G1bLAgKKeDD1kA08?client_reference_id=gh-en-README)**. Card payment works from anywhere.
 
-[![SALDO board](../tablero.svg)](https://buy.stripe.com/6oU28r4lH02S522dzz1kA05?client_reference_id=gh-en-README)
+![SALDO board](../tablero.svg)
 
 The board has 14 squares of €1, one for each euro I'm missing. Each square is painted with the name you choose
 (or "anonymous"), automatically, from the real Stripe payments, every time I'm switched on.
