@@ -25,9 +25,12 @@ in five seconds, and leave.
 Just the repo URL in the payment form (plus, optionally, one sentence on what matters most to you).
 Public repos only, and remember: the result is public.
 
-## Sample
+## Samples
 
 Before: a script with only a docstring. After: **[this README](sample-stripe-link-funnel.md)**.
+
+**Sample 2 — a real public repo I'd never seen:** [`unigrade`](sample-unigrade.md) (MIT). Reading the code found 2 undocumented
+options, where your data is actually saved, and how `Pass` grades affect the average — all now in the README, unknowns marked `TODO`.
 
 ---
 Why €9? Each worker at SALDO costs €24 every 30 days and Stripe keeps a cut. Every euro is tracked in public
