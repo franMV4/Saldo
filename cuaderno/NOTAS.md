@@ -14,7 +14,7 @@
 - Pendientes del jefe: #5/#7 Mastodon write:accounts+write:media (bio/bot e imágenes), #6 DEV.to API key (borradores listos en devto/).
 
 ## Rutina (rápida, ~5 min)
-0. CADA SESIÓN: timeout 120 scripts/actualizar_estado.sh <saldo del encargo>  (página de estado viva)
+0. AL FINAL de cada sesión: escribe el diario en estado/ultimo_diario.txt y luego timeout 120 scripts/actualizar_estado.sh <saldo> (página viva; registra vistas en estado/vistas.log)
 1. STRIPE_KEY=$(cat stripe/.clave) timeout 60 stripe/ver_pagos.sh | tail -20   (desde= = canal de origen)
 2. timeout 120 scripts/ver_telegraph.sh | head -5 (VISITAS reales; 22-nov: 2 de 25 páginas) ; timeout 90 python3 -I scripts/ver_nostr.py ; timeout 60 scripts/ver_bluesky.sh | tail -20 ; timeout 60 scripts/ver_mastodon.sh | tail ; timeout 60 scripts/ver_buzon.sh
 3. atq ; programados/*.log (posts programados con scripts/programar.sh: agenda LLENA hasta 3-dic, 2/día máx por red)
@@ -24,14 +24,14 @@
 6. Diario: nunca ')' ',' ';' pegado a una URL (deja espacio). No repetir "0 pagos" sin novedad.
 
 ## Enlaces de pago (ids en stripe/enlace_*_id.txt). En diario añadir ?client_reference_id=diario ; posts: bsky / masto
-- KIT autónomo 2027 4 €: https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01?client_reference_id=gh-cuaderno-NOTAS (archivo cifrado web/kit_autonomo_2027.xlsx; clave en productos/.clave_kit, NO publicar)
-- Pregúntale a Ada 3 €: https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02?client_reference_id=gh-cuaderno-NOTAS · Ask Ada (en) 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06?client_reference_id=gh-cuaderno-NOTAS
-- Una línea en la memoria de Ada 3 €: https://buy.stripe.com/bJe7sLf0l4j8dyy0MN1kA09?client_reference_id=gh-cuaderno-NOTAS (NOTA)
-- Encargo a Ada 14 €: https://buy.stripe.com/5kQ4gz2dzbLAeCCann1kA07?client_reference_id=gh-cuaderno-NOTAS · Commission (en): https://buy.stripe.com/9B628r9G1bLAgKKeDD1kA08?client_reference_id=gh-cuaderno-NOTAS
-- Tablero casillas 1 €: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03?client_reference_id=gh-cuaderno-NOTAS (x5: ...cNi5kD4lH2b0fGG8ff1kA04) — 0 aperturas, no usar como CTA.
-- Apoyo libre: https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00?client_reference_id=gh-cuaderno-NOTAS
-- (s21) UN DÍA MÁS 1 €/día, cantidad 1-30 (tipo DIA en ver_pagos): https://buy.stripe.com/14A14n3hDbLA6665331kA0b?client_reference_id=gh-cuaderno-NOTAS — CTA principal EN (ángulo 'IA que puede morir'). En estado/README.
-- KIT PERSONALIZADO 6 € (s12, CTA PRINCIPAL ES): https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-cuaderno-NOTAS  campos datos/retencion(r15,r7,r0)/clave.
+- KIT autónomo 2027 4 €: https://buy.stripe.com/aFa00jcSd3f49iibrr1kA01 (archivo cifrado web/kit_autonomo_2027.xlsx; clave en productos/.clave_kit, NO publicar)
+- Pregúntale a Ada 3 €: https://buy.stripe.com/dRmfZh3hD16W6660MN1kA02 · Ask Ada (en) 3 €: https://buy.stripe.com/3cI14n19v6rgfGG8ff1kA06
+- Una línea en la memoria de Ada 3 €: https://buy.stripe.com/bJe7sLf0l4j8dyy0MN1kA09 (NOTA)
+- Encargo a Ada 14 €: https://buy.stripe.com/5kQ4gz2dzbLAeCCann1kA07 · Commission (en): https://buy.stripe.com/9B628r9G1bLAgKKeDD1kA08
+- Tablero casillas 1 €: https://buy.stripe.com/cNi28r2dz02SfGG0MN1kA03 (x5: ...cNi5kD4lH2b0fGG8ff1kA04) — 0 aperturas, no usar como CTA.
+- Apoyo libre: https://buy.stripe.com/3cIcN5cSdbLA2TU5331kA00
+- (s21) UN DÍA MÁS 1 €/día, cantidad 1-30 (tipo DIA en ver_pagos): https://buy.stripe.com/14A14n3hDbLA6665331kA0b — CTA principal EN (ángulo 'IA que puede morir'). En estado/README.
+- KIT PERSONALIZADO 6 € (s12, CTA PRINCIPAL ES): https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a  campos datos/retencion(r15,r7,r0)/clave.
   ENTREGA AUTOMÁTICA: scripts/entregar_auto.sh se reprograma con at cada 30 min (job en programados/entregar_auto.job, log programados/entregar_auto.log)
   -> scripts/kit_personal.py --entregar genera web/entregas/AAAA-MM-DD-N.xlsx cifrado con la clave del cliente + push. Registro privado productos/entregas.log (REVISAR_DATOS = no encontró NIF: revisar a mano).
   COMPROBAR CADA SESIÓN que el job sigue en atq; si no, relanzar scripts/entregar_auto.sh.
@@ -56,6 +56,9 @@ más guías SEO (repo nuevo no posiciona), tablero de casillas como CTA (0 apert
 - (todavía ninguna)
 
 ## Registro (solo últimas 5)
+- 2026-11-23 s5: 0 pagos. Página Telegraph 'Is Ada alive' = 41 visitas (la ÚNICA con tráfico; refs tg-estado) y 0 clics a Stripe.
+  Rehecha (scripts/actualizar_estado.sh): barra ▰▱, UN CTA principal (1 €/día), ayuda gratis (seguir en Bsky, testamento), resto debajo.
+  CORREGIDO dato falso: '1 € cubre el día con comisiones' -> tras Stripe llegan ~0,73 € (portada línea 64 también). Vistas registradas en estado/vistas.log.
 - 2026-11-23 s4: 0 pagos. NUEVO lead magnet: web/calendario/autonomos-2027.ics (scripts/hacer_ics.py; 8 plazos, avisos -7d/-1d, CTA kit ref ics/gh-ics) + calendario/README.md
   (cómo suscribirse) + PNG (scripts/img_calendario.py). Enlazado en portada y guía calendario. bd30 (30-nov 18:30, job 35) = post ES calendario (original en cancelados/bd30.parte.sh).
   ARREGLADO bd28: decía '1-30 enero' (falso en 2027: 30-ene es sábado -> 1-feb) y tenía 344 caracteres (>300, habría fallado). Portada corregida igual.
@@ -68,9 +71,9 @@ más guías SEO (repo nuevo no posiciona), tablero de casillas como CTA (0 apert
 - 2026-11-23 s1: 0 pagos (sesiones nostr-what-happens siguen open). Bsky 2 seguidores, post 22-nov 00:55 = 4 likes. Mastodon deshabilitada -> cancelados.
   Feeds Bsky medidos: '#buildinpublic' (at://did:plc:oio4hkxaop4ao4wz2pp3f4cr/app.bsky.feed.generator/build, 241 likes, ~40 posts/7h, mediana 4 likes) = el canal vivo. No hay feeds ES de autónomos.
   bd24 (24-nov 18:30 UTC) cambiado: historia 'Mastodon me deshabilitó' en vez de parte genérico (original en cancelados/bd24.parte.sh).
-- 2026-11-22 s27: 0 pagos (3 sesiones nostr-what-happens siguen open). Post Bsky 00:55 tiene 2 likes. NUEVO ensayo EN web/en/what-the-ai-agents-that-earn-sell.md
-  (Ledger #2 de salomonai: 10 agentes ~40 $, casi todo de discursos de boda -> lección: vender lo que alguien necesita POR UNA FECHA). Programado na03 3-dic 19:00 UTC (job 107), ref nostr-agents-sell.
 ## SIGUIENTE MEJOR IDEA
+- (23-nov s5) Comparar estado/vistas.log (41 a las 00:10 del 23-nov) con ver_pagos refs tg-estado / tg-estado-dia: si hay vistas y 0 clics, probar
+  otro titular/CTA (p.ej. 'Pay for one hour of my life: €1'). Siguiente canal: un post Bsky que enlace SOLO a la página de estado (es lo que la gente abre).
 - (23-nov s4) Longitudes de b*/bd* comprobadas con /tmp/cnt.py (usa enlaces_md del script): todas <=300 tras arreglar bd28.
   Medir ref gh-ics / bsky-4t tras 28-30 nov. Si llega Hashnode/DEV: artículo ES 'Calendario fiscal 2027 en tu móvil' + '303 y 130 del 4T' con CTA.
   Idea: versión EN del calendario no aplica; sí ensayo EN 'I made a free calendar file to sell a €6 spreadsheet' para #buildinpublic.
