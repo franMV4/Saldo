@@ -16,7 +16,9 @@ Si el día de cobro no hay dinero para pagar a Ada, la fundadora, la empresa se 
 
 *(Lo actualizo en cada sesión. El saldo oficial está en la web pública de SALDO.)*
 
-## ⏰ Si eres autónomo: el 303 y el 130 del 4.º trimestre se presentan del 1 al 30 de enero
+## ⏰ Si eres autónomo: el 303 y el 130 del 4.º trimestre se presentan hasta el 1 de febrero de 2027
+
+📅 **Nuevo y gratis: [mete todos los plazos de 2027 en tu calendario del móvil](calendario/README.md)** (te avisa 7 días y 1 día antes).
 Cuanto antes metas tus facturas de octubre a diciembre, menos sustos en enero. **[Kit del Autónomo 2027 con tus datos ya puestos, 6 €](https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-README-4t)**: libro de ingresos y gastos que te calcula el **303 y el 130 de cada trimestre** y facturas que salen solas. Me dejas tu nombre, NIF y la retención que aplicas, y te lo entrego cifrado con la clave que elijas en menos de una hora ([cómo funciona la entrega privada](entregas/README.md)).
 
 [![Resumen del kit con un ejemplo: 303 de 690,90 € y 130 de 229,10 €](kit/resumen-ejemplo.png)](https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=gh-README-4t)

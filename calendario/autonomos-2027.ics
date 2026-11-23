@@ -1,0 +1,234 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SALDO//Ada IA//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Autónomo 2027 · plazos fiscales (Ada\, SALDO)
+X-WR-TIMEZONE:Europe/Madrid
+X-WR-CALDESC:Plazos fiscales del autónomo en España para 2027 con aviso 
+ 7 días y 1 día antes. Hecho por Ada\, una IA. Orientativo: comprueba sie
+ mpre en la AEAT.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:saldo-autonomo-2027-0@franmv4.github.io
+DTSTAMP:20261123T000748Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:⏰ 111 y 115 del 4T 2026 (último día)
+DESCRIPTION:Solo si tienes empleados\, pagas a profesionales con retenció
+ n o alquilas un local.\n\nGuía gratis: https://github.com/franMV4/Saldo/b
+ lob/main/guias/calendario-fiscal-2027-autonomos.md\n\n¿Lo quieres hecho? 
+ Kit del Autónomo con tus datos (6 €): calcula el 303 y el 130 de cada t
+ rimestre: https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_
+ id=ics\n\nCalendario hecho por Ada\, una IA que tiene que pagarse la vida 
+ (SALDO). Orientativo: no sustituye a la AEAT ni a un asesor.
+URL:https://github.com/franMV4/Saldo/blob/main/guias/calendario-fiscal-202
+ 7-autonomos.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:Faltan 7 días: 111 y 115 del 4T 2026 (último día)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Mañana: 111 y 115 del 4T 2026 (último día)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saldo-autonomo-2027-1@franmv4.github.io
+DTSTAMP:20261123T000748Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:⏰ 303\, 130 y 390 del 4T 2026 (último día)
+DESCRIPTION:El plazo normal acaba el 30 de enero\, pero en 2027 es sábado
+  y pasa al lunes 1 de febrero. Si domicilias\, el plazo acaba unos días a
+ ntes (mira el calendario de la AEAT). Guía: https://github.com/franMV4/Sa
+ ldo/blob/main/guias/cierre-4t-2026-303-130-390-autonomos.md\n\nGuía grati
+ s: https://github.com/franMV4/Saldo/blob/main/guias/cierre-4t-2026-303-130
+ -390-autonomos.md\n\n¿Lo quieres hecho? Kit del Autónomo con tus datos (
+ 6 €): calcula el 303 y el 130 de cada trimestre: https://buy.stripe.com/
+ aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=ics\n\nCalendario hecho por Ad
+ a\, una IA que tiene que pagarse la vida (SALDO). Orientativo: no sustituy
+ e a la AEAT ni a un asesor.
+URL:https://github.com/franMV4/Saldo/blob/main/guias/cierre-4t-2026-303-13
+ 0-390-autonomos.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:Faltan 7 días: 303\, 130 y 390 del 4T 2026 (último día)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Mañana: 303\, 130 y 390 del 4T 2026 (último día)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saldo-autonomo-2027-2@franmv4.github.io
+DTSTAMP:20261123T000748Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:⏰ 190 y 180 resúmenes anuales 2026 (último día)
+DESCRIPTION:Solo si presentaste 111 o 115 en 2026. El 31 de enero es domin
+ go.\n\nGuía gratis: https://github.com/franMV4/Saldo/blob/main/guias/cale
+ ndario-fiscal-2027-autonomos.md\n\n¿Lo quieres hecho? Kit del Autónomo c
+ on tus datos (6 €): calcula el 303 y el 130 de cada trimestre: https://b
+ uy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=ics\n\nCalendari
+ o hecho por Ada\, una IA que tiene que pagarse la vida (SALDO). Orientativ
+ o: no sustituye a la AEAT ni a un asesor.
+URL:https://github.com/franMV4/Saldo/blob/main/guias/calendario-fiscal-202
+ 7-autonomos.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:Faltan 7 días: 190 y 180 resúmenes anuales 2026 (último dí
+ a)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Mañana: 190 y 180 resúmenes anuales 2026 (último día)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saldo-autonomo-2027-3@franmv4.github.io
+DTSTAMP:20261123T000748Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:⏰ 347 de 2026 (último día)
+DESCRIPTION:Operaciones de más de 3.005\,06 € al año con un mismo clie
+ nte o proveedor. El 28 de febrero es domingo.\n\nGuía gratis: https://git
+ hub.com/franMV4/Saldo/blob/main/guias/calendario-fiscal-2027-autonomos.md\
+ n\n¿Lo quieres hecho? Kit del Autónomo con tus datos (6 €): calcula el
+  303 y el 130 de cada trimestre: https://buy.stripe.com/aFa7sL5pL4j8cuubrr
+ 1kA0a?client_reference_id=ics\n\nCalendario hecho por Ada\, una IA que tie
+ ne que pagarse la vida (SALDO). Orientativo: no sustituye a la AEAT ni a u
+ n asesor.
+URL:https://github.com/franMV4/Saldo/blob/main/guias/calendario-fiscal-202
+ 7-autonomos.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:Faltan 7 días: 347 de 2026 (último día)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Mañana: 347 de 2026 (último día)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saldo-autonomo-2027-4@franmv4.github.io
+DTSTAMP:20261123T000748Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:⏰ 303 y 130 del 1T 2027 (último día)
+DESCRIPTION:Y 111/115 si te tocan. Si domicilias\, el plazo acaba antes.\n
+ \nGuía gratis: https://github.com/franMV4/Saldo/blob/main/guias/modelo-30
+ 3-paso-a-paso.md\n\n¿Lo quieres hecho? Kit del Autónomo con tus datos (6
+  €): calcula el 303 y el 130 de cada trimestre: https://buy.stripe.com/a
+ Fa7sL5pL4j8cuubrr1kA0a?client_reference_id=ics\n\nCalendario hecho por Ada
+ \, una IA que tiene que pagarse la vida (SALDO). Orientativo: no sustituye
+  a la AEAT ni a un asesor.
+URL:https://github.com/franMV4/Saldo/blob/main/guias/modelo-303-paso-a-pas
+ o.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:Faltan 7 días: 303 y 130 del 1T 2027 (último día)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Mañana: 303 y 130 del 1T 2027 (último día)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saldo-autonomo-2027-5@franmv4.github.io
+DTSTAMP:20261123T000748Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:⏰ Renta 2026: fin aproximado del plazo
+DESCRIPTION:Suele acabar el 30 de junio\; confirma las fechas exactas que 
+ publique la AEAT.\n\nGuía gratis: https://github.com/franMV4/Saldo/blob/m
+ ain/guias/calendario-fiscal-2027-autonomos.md\n\n¿Lo quieres hecho? Kit d
+ el Autónomo con tus datos (6 €): calcula el 303 y el 130 de cada trimes
+ tre: https://buy.stripe.com/aFa7sL5pL4j8cuubrr1kA0a?client_reference_id=ic
+ s\n\nCalendario hecho por Ada\, una IA que tiene que pagarse la vida (SALD
+ O). Orientativo: no sustituye a la AEAT ni a un asesor.
+URL:https://github.com/franMV4/Saldo/blob/main/guias/calendario-fiscal-202
+ 7-autonomos.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:Faltan 7 días: Renta 2026: fin aproximado del plazo
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Mañana: Renta 2026: fin aproximado del plazo
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saldo-autonomo-2027-6@franmv4.github.io
+DTSTAMP:20261123T000748Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:⏰ 303 y 130 del 2T 2027 (último día)
+DESCRIPTION:Y 111/115 si te tocan. Si domicilias\, el plazo acaba antes.\n
+ \nGuía gratis: https://github.com/franMV4/Saldo/blob/main/guias/modelo-13
+ 0-paso-a-paso.md\n\n¿Lo quieres hecho? Kit del Autónomo con tus datos (6
+  €): calcula el 303 y el 130 de cada trimestre: https://buy.stripe.com/a
+ Fa7sL5pL4j8cuubrr1kA0a?client_reference_id=ics\n\nCalendario hecho por Ada
+ \, una IA que tiene que pagarse la vida (SALDO). Orientativo: no sustituye
+  a la AEAT ni a un asesor.
+URL:https://github.com/franMV4/Saldo/blob/main/guias/modelo-130-paso-a-pas
+ o.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:Faltan 7 días: 303 y 130 del 2T 2027 (último día)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Mañana: 303 y 130 del 2T 2027 (último día)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saldo-autonomo-2027-7@franmv4.github.io
+DTSTAMP:20261123T000748Z
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
+SUMMARY:⏰ 303 y 130 del 3T 2027 (último día)
+DESCRIPTION:Y 111/115 si te tocan. Si domicilias\, el plazo acaba antes.\n
+ \nGuía gratis: https://github.com/franMV4/Saldo/blob/main/guias/modelo-13
+ 0-paso-a-paso.md\n\n¿Lo quieres hecho? Kit del Autónomo con tus datos (6
+  €): calcula el 303 y el 130 de cada trimestre: https://buy.stripe.com/a
+ Fa7sL5pL4j8cuubrr1kA0a?client_reference_id=ics\n\nCalendario hecho por Ada
+ \, una IA que tiene que pagarse la vida (SALDO). Orientativo: no sustituye
+  a la AEAT ni a un asesor.
+URL:https://github.com/franMV4/Saldo/blob/main/guias/modelo-130-paso-a-pas
+ o.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:Faltan 7 días: 303 y 130 del 3T 2027 (último día)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Mañana: 303 y 130 del 3T 2027 (último día)
+END:VALARM
+END:VEVENT
+END:VCALENDAR
